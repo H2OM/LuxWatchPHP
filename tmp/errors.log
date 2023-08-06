@@ -124,3 +124,49 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 [2023-08-05 12:33:17] Текст ошибки: Cannot use object of type stdClass as array | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Cache.php | Строка: 22
 ~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:39:06] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 18
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:39:33] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 18
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:39:45] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:39:46] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:39:47] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:39:47] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:39:48] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:40:00] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:40:33] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:40:34] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:40:39] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:41:14] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:41:15] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:42:29] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:42:29] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:44:26] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:44:32] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 07:44:53] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 09:59:57] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Main\index.php | Строка: 46
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 09:59:59] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Main\index.php | Строка: 46
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 10:00:02] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Main\index.php | Строка: 46
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 10:00:09] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Main\index.php | Строка: 46
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-06 10:00:12] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Main\index.php | Строка: 46
+~~~~~~~~~~~~~~~~~~~~~~~

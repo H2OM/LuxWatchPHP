@@ -20,7 +20,7 @@
             if(file_exists($file)) {
                 $content = json_decode(file_get_contents($file), true);
                 if(time() <= $content['end_time']) {
-                    return $content;
+                    return $content['data'];
                 }
                 unlink($file);
             }

@@ -43,6 +43,7 @@
 	<!--about-end-->
 	<!--product-starts-->
     <?php if($data['hits']):?>
+	<?php $curr = \shop\App::$app->getProperty('currency');?>
 	<div class="product"> 
 		<div class="container">
 			<div class="product-top">
@@ -56,9 +57,9 @@
 								<p>Explore Now</p>
 								<h4>
                                     <a class="add-to-cart-link" href="cart/add?id=<?php echo $hit['id'];?>"><i></i></a> 
-                                    <span class=" item_price">$<?php echo $hit['price'];?></span>
+                                    <span class=" item_price"><?=$curr['symbol_left'];?><?php echo $hit['price'] * $curr['value'];?><?=' ' . $curr['symbol_right'];?></span>
                                     <?php if($hit['old_price']):?>
-                                        <small><del><?php echo $hit['old_price'];?></del></small>    
+                                        <small><del><?=$curr['symbol_left'];?><?php echo $hit['old_price']* $curr['value'];?><?=' ' . $curr['symbol_right'];?></del></small>    
                                     <?php endif;?>
                                 </h4>
 							</div>
