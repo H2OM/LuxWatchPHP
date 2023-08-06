@@ -7,9 +7,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html> 
 <head>
+<base href="/Projects/LuxuryWathesPHP/">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />	
+<link href="js/megamenu/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="js/megamenu/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <?=$this->getMeta();?>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -59,7 +63,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--top-header-->
 	<!--start-logo-->
 	<div class="logo">
-		<a href="index.html"><h1>Luxury Watches</h1></a>
+		<a href="<?=PATH;?>"><h1>Luxury Watches</h1></a>
 	</div>
 	<!--start-logo-->
 	<!--bottom-header-->
@@ -71,7 +75,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="menu">
 							<?php
 								new app\widgets\menu\Menu([
-								'tpl' => ROOT . '\menu\menu.php',
+								'tpl' => ROOT . '\public\menu\menu.php',
 								'container'=> 'ul'
 								]);
 							?>
@@ -183,8 +187,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 		});
 	</script>
-	<script src="js/megamenu.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/megamenu/js/megamenu.js"></script>
+	<script src="js/imagezoom.js"></script>
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script>
+	// Can also be used with $(document).ready()
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: "thumbnails"
+		});
+	});
+	</script>
+	<script src="js/jquery.easydropdown.js"></script>	
+	<script type="text/javascript">
+		$(function() {
+		
+			var menu_ul = $('.menu_drop > li > ul'),
+				menu_a  = $('.menu_drop > li > a');
+			
+			menu_ul.hide();
+		
+			menu_a.click(function(e) {
+				e.preventDefault();
+				if(!$(this).hasClass('active')) {
+					menu_a.removeClass('active');
+					menu_ul.filter(':visible').slideUp('normal');
+					$(this).addClass('active').next().stop(true,true).slideDown('normal');
+				} else {
+					$(this).removeClass('active');
+					$(this).next().stop(true,true).slideUp('normal');
+				}
+			});
+		
+		});
+	</script>	
 </body>
 </html>
 

@@ -23,4 +23,22 @@
             }
             return $out;
         }
+        public static function getPreparedQuery($request, $parrametrs = []) {
+            try {
+                $state = self::$pdo->prepare($request);
+                for($i = 1; $i <= count($parrametrs); $i++) {
+                    $state->bindParam($i, $parrametrs[$i-1]['VALUE'], PDO::PARAM_STR, $parrametrs[$i-1]['PARAMVALUE']);
+                }
+                $state->execute();
+                $result = [];
+                while($row = $state->fetch()) {
+                    array_push($result, $row);
+                }
+                if(count($result) == 1) $result = $result[0];
+                return $result;
+            } catch (\PDOException $e) {
+                throw new \PDOException("Не удалось связать параметры PDO   " . $e->getMessage());
+            }
+            
+        }
     }

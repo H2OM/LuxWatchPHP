@@ -9,4 +9,13 @@
     define("CONF", ROOT . '/config');
     define("LAYOUT", 'Watches');
     
+    // http://ishop2.loc/public/index.php
+    $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
+    // http://ishop2.loc/public/
+    $app_path = preg_replace("#[^/]+$#", '', $app_path);
+    // http://ishop2.loc
+    $app_path = str_replace('/public/', '', $app_path);
+    define("PATH", $app_path);
+    define("ADMIN", PATH . '/admin');
+
     require_once ROOT . '/vendor/autoload.php';

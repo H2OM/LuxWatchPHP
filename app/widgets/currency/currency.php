@@ -21,7 +21,7 @@
         }
         public static function getCurrencies () {
             $tmp = Db::getQuery("SELECT code, title, symbol_left, symbol_right, value, base FROM currency ORDER BY base DESC", true);
-            // file_put_contents(CACHE . '/' . 'currencies.json', json_encode($tmp));
+            file_put_contents(CACHE . '/' . 'currencies.json', json_encode($tmp));
             return $tmp;
         }
         public static function getCurrency ($currencies) {

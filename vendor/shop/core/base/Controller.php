@@ -1,11 +1,13 @@
 <?php
     namespace shop\base;
     abstract class Controller {
+        public $route;
         public $controller;
         public $model;
         public $view;
         public $prefix;
         public $layout;
+        public $alias;
         public $data = [];
         public $meta = ['title'=> '', 'description' => '', 'keywords'=> ''];
         
@@ -14,6 +16,7 @@
             $this->model = $route['controller'];
             $this->view= $route['action'];
             $this->prefix = $route['prefix'];
+            $this->alias = $route['alias'] ?? null;
             
         }
 
