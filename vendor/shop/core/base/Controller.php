@@ -33,4 +33,12 @@
             $this->meta['description'] = $desc;
             $this->meta['keywords'] = $keywords;
         }
+        public function isAjax() {
+            return isset($_SERVER['HTTP_SEC_FETCH_SITE']);
+        }
+        public function loadView($view,$vars = []) {
+            extract($vars);
+            require APP . "/views/{$this->prefix}{$this->controller}/{$view}.php";
+            die;
+        }
     }

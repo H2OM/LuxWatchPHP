@@ -516,3 +516,23 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 [2023-08-06 22:29:21] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Product\view.php | Строка: 254
 ~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-07 11:44:47] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3' at line 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-07 12:45:53] Текст ошибки: Class 'app\models\Breadcrumbs' not found | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\ProductController.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-07 12:46:49] Текст ошибки: Class 'app\models\Breadcrumbs' not found | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\ProductController.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-07 12:59:37] Текст ошибки: Controller app\controllers\CategoryController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-07 16:36:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-07 16:44:08] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Cart/add.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-07 16:45:53] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Cart/add.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-07 16:47:28] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-07 17:40:08] Текст ошибки:  | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CartController.php | Строка: 16
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-07 17:45:23] Текст ошибки:  | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CartController.php | Строка: 17
+~~~~~~~~~~~~~~~~~~~~~~~
