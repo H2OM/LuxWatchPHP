@@ -65,6 +65,7 @@
 								<del><?=$curr['symbol_left'];?><?php echo $product['old_price']* $curr['value'];?><?=' ' . $curr['symbol_right'];?></del>  
 							<?php endif;?>
 							<p><?=$product['content'];?></p>
+							<?php if($mods):?>
 							<div class="available">
 								<ul>
 									<li>Color
@@ -80,9 +81,10 @@
 											<?php endforeach;?>
 										</select>
 									</li>
-								<div class="clearfix"> </div>
-							</ul>
-						</div>
+									<div class="clearfix"> </div>
+								</ul>
+							</div>
+							<?php endif;?>
 							<ul class="tag-men">
 								<li><span>Category</span>
 								<span >:<a href="category/<?=$cats[$product['id']]['alias'];?>"><?=$cats[$product['id']]['title'];?></a></span></li>

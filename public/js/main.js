@@ -1,9 +1,10 @@
 document.querySelectorAll('.add-to-cart-link').forEach(link=>{
     link.addEventListener('click',e=>{
         e.preventDefault();
-        let id = e.target.dataset.id,
+        let id = link.dataset.id,
             qty = document.querySelector('.quantity > input')?.value ?? 1,
             mod = document.querySelector('.available select')?.value;
+            console.log(id, qty, mod);
             fetch("/Projects/LuxuryWatchesPHP/public/cart/add", {
                 body:JSON.stringify({id, qty, mod}),
                 method: 'POST'
@@ -16,12 +17,55 @@ document.querySelectorAll('.add-to-cart-link').forEach(link=>{
             });          
 
     });
-})
+});
+
+$('#cart .modal-body').on('click', '.del-item', function () {
+    let id = $(this).data('id');
+    fetch("/Projects/LuxuryWatchesPHP/public/cart/delete", {
+        method: 'POST',
+        body: JSON.stringify({id}),
+    }).then(data=>data.text())
+    .then(data=>{
+        showCart(data);
+    }).catch(()=>alert('Error!'));
+});
 
 function showCart(cart) {
-    console.log(cart);
+    if(cart.trim() == '<h3>Basket is empty</h3>') {
+        $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'none');
+    } else {
+        $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'inline-block');   
+    }
+    $('#cart .modal-body').html(cart);
+    $('#cart').modal();
+    if($('.cart-sum').text()) {
+        $('.simpleCart_total').html($('#cart .cart-sum').text());
+    } else {
+        $('.simpleCart_total').text('Empty basket');   
+    }
 }
-
+function getCart() {
+    fetch("/Projects/LuxuryWatchesPHP/public/cart/show", {
+        method: 'GET'
+    }).then(data=>data.text())
+    .then((data)=>{
+        showCart(data);
+    })
+    .catch((e)=>{
+        alert(`Seems error with server connection, ${e}`);
+    }); 
+}
+function clearCart(){
+    fetch("/Projects/LuxuryWatchesPHP/public/cart/clear", {
+        method: 'GET'
+    }).then(data=>data.text())
+    .then((data)=>{
+        showCart(data);
+    })
+    .catch((e)=>{
+        alert(`Seems error with server connection, ${e}`);
+    }); 
+}
 $('#currency').change(function(){
     window.location = 'currency/change?curr=' + $(this).val();
 });

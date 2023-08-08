@@ -47,12 +47,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-md-6 top-header-left">
 					<div class="cart box_1">
-						<a href="checkout.html">
+						<a href="cart/show" onclick="getCart(); return false;">
+							<div class="total">
+								<img src="images/cart-1.png" alt="">
+								<?php if(!empty($_SESSION['cart'])):?>
+									<span class="simpleCart_total"><?=$_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.sum'] . " " . $_SESSION['cart.currency']['symbol_right'];?></span>
+								<?php else:?>
+									<span class="simpleCart_total">Empty basket</span>
+								<?php endif;?>
+							</div>
+						</a>
+						<!-- <a href="checkout.html">
 							 <div class="total">
 								<span class="simpleCart_total"></span></div>
 								<img src="images/cart-1.png" alt="" />
 						</a>
-						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p> -->
 						<div class="clearfix"> </div>
 					</div>
 				</div>
@@ -162,10 +172,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
-	<!--footer-end-->	
+	<!--footer-end-->
+	<div id="cart" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Basket</h4>
+				</div>
+				<div class="modal-body">
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Continue shoping</button>
+					<button type="button" class="btn btn-primary">Set order</button>
+					<button type="button" class="btn btn-danger" onclick="clearCart()">Clear basket</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	
 	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.easydropdown.js"></script>
-	<script src="js/simpleCart.min.js"> </script>
 	<script src="js/responsiveslides.min.js"></script>
 	<script>
 		// You can also use "$(window).load(function() {"

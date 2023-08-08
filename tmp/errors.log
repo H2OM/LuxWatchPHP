@@ -536,3 +536,29 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 [2023-08-07 17:45:23] Текст ошибки:  | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CartController.php | Строка: 17
 ~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 13:09:11] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 13:09:11] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 13:09:11] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 13:51:52] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 13:51:53] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 13:52:09] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 13:52:09] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 13:52:11] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 16:03:57] Текст ошибки: Cannot use object of type stdClass as array | Файл: C:\Projects\LuxuryWatchesPHP\app\models\Cart.php | Строка: 38
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 16:04:23] Текст ошибки: Cannot use object of type stdClass as array | Файл: C:\Projects\LuxuryWatchesPHP\app\models\Cart.php | Строка: 39
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 16:06:57] Текст ошибки: Cannot use object of type stdClass as array | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CurrencyController.php | Строка: 16
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 16:07:22] Текст ошибки: Cannot use object of type stdClass as array | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CurrencyController.php | Строка: 17
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 16:09:57] Текст ошибки: syntax error, unexpected 'break' (T_BREAK) | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CurrencyController.php | Строка: 17
+~~~~~~~~~~~~~~~~~~~~~~~
