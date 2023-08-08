@@ -562,3 +562,9 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 [2023-08-08 16:09:57] Текст ошибки: syntax error, unexpected 'break' (T_BREAK) | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CurrencyController.php | Строка: 17
 ~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 21:36:11] Текст ошибки: Method app\controllers\SearchController::indexAction not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 21:36:22] Текст ошибки: Method app\controllers\SearchController::indexAction not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-08 21:39:39] Текст ошибки: Method app\controllers\SearchController::indexAction not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
