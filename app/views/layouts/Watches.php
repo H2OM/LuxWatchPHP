@@ -95,8 +95,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			<div class="col-md-3 header-right"> 
 				<div class="search-bar">
-					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-					<input type="submit" value="">
+								<form action="search" method="get" autocomplete="off">
+									<input type="text" class="typeahead" id="typeahead" name="s">
+									<input type="submit">
+								</form>
+				<!-- <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					<input type="submit" value=""> -->
 				</div>
 			</div>
 			<div class="clearfix"> </div>
@@ -191,9 +195,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
-	
+	<script>
+		const path = "<?=PATH;?>";
+	</script>
 	<script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/typeahead.bundle.js"></script>
 	<script src="js/jquery.easydropdown.js"></script>
 	<script src="js/responsiveslides.min.js"></script>
 	<script>
