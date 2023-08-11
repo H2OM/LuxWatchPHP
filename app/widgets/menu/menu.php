@@ -42,7 +42,7 @@
                 $this->tree = $this->getTree();
                 $this->menuHtml = $this->getMenuHtml($this->tree);
                 if($this->cache) {
-                    $cache->set($this->cacheKey, $this->menuHtml, $this->cache);
+                    $cache->set($this->cacheKey, $this->data, $this->cache);
                 }
             }   
             $this->output();

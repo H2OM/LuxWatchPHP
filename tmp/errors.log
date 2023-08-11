@@ -1,570 +1,124 @@
-[2023-08-01 19:47:18] Текст ошибки: Controller app\controllers\MainController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-09 13:48:30] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Category/view.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-01 19:48:16] Текст ошибки: Controller public\app\controllers\MainController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-09 13:55:33] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Category/view.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-01 19:48:29] Текст ошибки: Controller .\public\app\controllers\MainController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-09 13:55:34] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Category/view.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-01 19:50:52] Текст ошибки: Controller .\public\app\controllers\MainController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-09 14:19:56] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Search/typeahead.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-01 20:02:09] Текст ошибки: Controller .\public\app\controllers\MainController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-09 16:24:37] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-01 20:10:53] Текст ошибки: Controller .\public\app\controllers\MainController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-09 16:24:38] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-01 20:12:12] Текст ошибки: Controller .\public\app\controllers\MainController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-09 16:24:40] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-01 20:13:13] Текст ошибки: Controller .\public\app\controllers\MainController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-09 16:24:41] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-01 20:13:42] Текст ошибки: Controller .\app\controllers\MainController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-09 16:24:50] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 13:43:31] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 16:25:32] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 13:43:32] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 16:25:33] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 13:43:38] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 16:25:36] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 13:48:13] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 16:33:27] Текст ошибки: SQLSTATE[HY000]: General error: No fetch-into object specified. | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 13:49:43] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 16:33:29] Текст ошибки: SQLSTATE[HY000]: General error: No fetch-into object specified. | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 13:49:44] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 16:36:40] Текст ошибки: SQLSTATE[HY000]: General error: No fetch class specified | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 13:52:06] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 20:53:55] Текст ошибки: Cannot use object of type app\models\User as array | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 11
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 13:53:19] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 20:54:02] Текст ошибки: Cannot use object of type app\models\User as array | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 11
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 13:54:04] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:09:10] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[42S02]: Base table or view not found: 1146 Table 'watches_shop.members' doesn't exist | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 41
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 13:56:01] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:09:29] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 41
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:00:25] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:10:24] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 41
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:00:40] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:14:10] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 42
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:31] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:14:11] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 42
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:33] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:14:16] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 43
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:33] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:16:58] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2fsf' for key 'user.login' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 43
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:33] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:17:25] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '151@ma.s' for key 'user.email' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 43
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:33] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:24:54] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 23
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:33] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:44:15] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 22
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:34] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:45:15] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 22
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:34] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 21:53:39] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:34] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:01:39] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:34] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:03:11] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:34] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:03:39] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:35] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:04:42] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:35] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:05:15] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:35] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:05:26] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:37] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:05:43] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:38] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:06:15] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:39] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:06:56] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:40] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:07:36] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:40] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:07:39] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:41] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:07:50] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:42] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:07:51] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:42] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:09:06] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:43] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:09:39] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:43] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:10:07] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:44] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:11:30] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 23
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:45] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:11:33] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 23
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:05:45] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:19:22] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:06:12] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:19:34] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 23
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:06:24] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-09 22:20:02] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:09:08] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-11 10:41:11] Текст ошибки: Method app\controllers\UserController::signinAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:09:17] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-11 10:41:27] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/User/signin.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:09:33] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-11 10:50:48] Текст ошибки: Controller app\controllers\LoginController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:09:41] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views//index.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 34
+[2023-08-11 10:50:56] Текст ошибки: Controller app\controllers\SigninController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 14:20:34] Текст ошибки: Call to undefined function shop\base\getMeta() | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 42
+[2023-08-11 10:51:14] Текст ошибки: Method app\controllers\UserController::loginAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 16:35:52] Текст ошибки: Class 'shop\models\AppModel' not found | Файл: X:\PROJECTS\LuxuryWathesPHP\app\controllers\AppController.php | Строка: 10
+[2023-08-11 10:51:50] Текст ошибки: Method app\controllers\UserController::loginAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 16:59:44] Текст ошибки: Error with data base connection | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 16
+[2023-08-11 10:54:09] Текст ошибки: Method app\controllers\UserController::luxuryWatchesPHPAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 16:59:57] Текст ошибки: Error with data base connection | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 16
+[2023-08-11 10:54:19] Текст ошибки: Method app\controllers\UserController::luxuryWatchesPHPAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-02 17:01:22] Текст ошибки: Controller app\controllers\MainController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 30
+[2023-08-11 10:54:47] Текст ошибки: Method app\controllers\UserController::indexAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-05 12:31:13] Текст ошибки: Cannot use object of type stdClass as array | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Cache.php | Строка: 22
+[2023-08-11 10:55:06] Текст ошибки: Method app\controllers\UserController::indexAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-05 12:31:33] Текст ошибки: Cannot use object of type stdClass as array | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Cache.php | Строка: 23
+[2023-08-11 10:55:07] Текст ошибки: Method app\controllers\UserController::indexAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-05 12:33:14] Текст ошибки: Cannot use object of type stdClass as array | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Cache.php | Строка: 22
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-05 12:33:17] Текст ошибки: Cannot use object of type stdClass as array | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Cache.php | Строка: 22
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:39:06] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 18
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:39:33] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 18
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:39:45] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:39:46] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:39:47] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:39:47] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:39:48] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:40:00] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:40:33] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:40:34] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:40:39] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:41:14] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:41:15] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:42:29] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:42:29] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:44:26] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:44:32] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 07:44:53] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\widgets\currency\currency.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 09:59:57] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Main\index.php | Строка: 46
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 09:59:59] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Main\index.php | Строка: 46
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 10:00:02] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Main\index.php | Строка: 46
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 10:00:09] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Main\index.php | Строка: 46
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 10:00:12] Текст ошибки: Call to undefined method shop\Registry::getPropery() | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Main\index.php | Строка: 46
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 16:02:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:40:00] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:44:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:52:21] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:52:44] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:52:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:52:46] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:52:47] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:52:47] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:52:57] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:54:58] Текст ошибки: Controller app\controllers\CategoryController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:56:07] Текст ошибки: Controller app\controllers\CategoryController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:58:31] Текст ошибки: Controller app\controllers\CategoryController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:59:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:59:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:59:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:59:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:59:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:59:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:59:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:59:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:59:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:59:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 20:59:59] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:06] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:06] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:06] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:06] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:06] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:06] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:06] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:06] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:06] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:06] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:06] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:00:09] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:01:03] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:03:18] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:03:25] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:04:49] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:07:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:07:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:07:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:07:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:07:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:07:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:07:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:07:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:07:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:07:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:07:45] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:07] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:08] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:17] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:17] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:17] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:17] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:08:17] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:41] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:41] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:41] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:41] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:41] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:41] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:41] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:41] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:41] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:41] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:41] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:42] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:42] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:42] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:42] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:42] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:42] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:42] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:42] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:42] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:42] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:10:42] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:12:52] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:42:14] Текст ошибки: Controller app\controllers\CategoryController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:51:00] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 40
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:51:41] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 40
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:52:30] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 40
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:52:33] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 40
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:54:09] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 40
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:55:00] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:55:14] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views/Product/view.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 32
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:55:55] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 40
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:56:10] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:56:40] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:56:41] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:56:42] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:56:45] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 40
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:56:57] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:56:58] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:57:00] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:57:00] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:57:10] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:58:02] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:58:03] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:58:19] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:58:33] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:58:41] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:58:58] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 21:59:31] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:00:22] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 40
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:01:04] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 40
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:01:06] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 40
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:01:06] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 40
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:02:21] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 42
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:02:21] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 42
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:02:22] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 42
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:02:29] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 42
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:02:29] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 42
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:02:33] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 42
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:02:34] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 42
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:02:34] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 42
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:02:48] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 42
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:02:48] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 42
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:02:58] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views/Product/view.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 32
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:04:27] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:04:29] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\Db.php | Строка: 41
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:04:37] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views/Product/view.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 32
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:04:47] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views/Product/view.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 32
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:05:41] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWathesPHP/app/views/Product/view.php | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\base\View.php | Строка: 32
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:07:58] Текст ошибки: Controller app\controllers\FsController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:08:40] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:08:54] Текст ошибки: Controller app\controllers\FController not found | Файл: X:\PROJECTS\LuxuryWathesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:29:20] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Product\view.php | Строка: 254
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-06 22:29:21] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: X:\PROJECTS\LuxuryWathesPHP\app\views\Product\view.php | Строка: 254
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-07 11:44:47] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3' at line 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-07 12:45:53] Текст ошибки: Class 'app\models\Breadcrumbs' not found | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\ProductController.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-07 12:46:49] Текст ошибки: Class 'app\models\Breadcrumbs' not found | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\ProductController.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-07 12:59:37] Текст ошибки: Controller app\controllers\CategoryController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-07 16:36:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-07 16:44:08] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Cart/add.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-07 16:45:53] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Cart/add.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-07 16:47:28] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-07 17:40:08] Текст ошибки:  | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CartController.php | Строка: 16
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-07 17:45:23] Текст ошибки:  | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CartController.php | Строка: 17
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 13:09:11] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 13:09:11] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 13:09:11] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 13:51:52] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 13:51:53] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 13:52:09] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 13:52:09] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 13:52:11] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 16:03:57] Текст ошибки: Cannot use object of type stdClass as array | Файл: C:\Projects\LuxuryWatchesPHP\app\models\Cart.php | Строка: 38
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 16:04:23] Текст ошибки: Cannot use object of type stdClass as array | Файл: C:\Projects\LuxuryWatchesPHP\app\models\Cart.php | Строка: 39
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 16:06:57] Текст ошибки: Cannot use object of type stdClass as array | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CurrencyController.php | Строка: 16
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 16:07:22] Текст ошибки: Cannot use object of type stdClass as array | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CurrencyController.php | Строка: 17
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 16:09:57] Текст ошибки: syntax error, unexpected 'break' (T_BREAK) | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\CurrencyController.php | Строка: 17
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 21:36:11] Текст ошибки: Method app\controllers\SearchController::indexAction not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 21:36:22] Текст ошибки: Method app\controllers\SearchController::indexAction not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-08 21:39:39] Текст ошибки: Method app\controllers\SearchController::indexAction not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-11 10:56:38] Текст ошибки: Method app\controllers\UserController::publicAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~

@@ -15,8 +15,9 @@
                 throw new \PDOException("Error with data base connection", 500);
             }
         }
-        public static function getQuery($request, $FKAAN = false) {
+        public static function getQuery($request, $FKAAN = false, $COUNT = false) {
             $result = self::$pdo->query($request);
+            if($COUNT) return $result->fetch(PDO::FETCH_COLUMN);
             $out = [];
             while($row = $result->fetch()) {
                 $FKAAN ? $out[array_shift($row)] = $row : array_push($out, $row);
