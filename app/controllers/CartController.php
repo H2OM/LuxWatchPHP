@@ -34,15 +34,14 @@ use shop\Db;
             $this->loadView('cart_modal');
         }
         public function deleteAction() {
-            $DATA = json_decode(file_get_contents("php://input"), true);
-            $id = $DATA['id'] ?? null;
+            $id = $_GET['id'] ?? null;
             if(isset($_SESSION['cart'][$id])) {
                 $cart = new Cart();
                 $cart->deleteItem($id);
             } 
-            if($this->isAjax()) {
-                $this->loadView('cart_modal');
-            } 
+            // if($this->isAjax()) {
+            //     $this->loadView('cart_modal');
+            // } 
             redirect();
         }
         public function clearAction(){
@@ -51,5 +50,8 @@ use shop\Db;
             unset($_SESSION['cart.sum']);
             unset($_SESSION['cart.currency']);
             $this->loadView('cart_modal');
+        }
+        public function viewAction() {
+            $this->setMeta("Basket");
         }
     }

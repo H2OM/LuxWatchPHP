@@ -46,17 +46,20 @@ document.querySelectorAll('.add-to-cart-link').forEach(link=>{
     });
 });
 
-$('#cart .modal-body').on('click', '.del-item', function () {
-    let id = $(this).data('id');
-    fetch("/Projects/LuxuryWatchesPHP/public/cart/delete", {
-        method: 'POST',
-        body: JSON.stringify({id}),
-    }).then(data=>data.text())
-    .then(data=>{
-        showCart(data);
-    }).catch(()=>alert('Error!'));
-});
-
+// document.querySelectorAll('.del-item').forEach(item=>{
+//     let id = item.dataset.id;
+//     console.log(id);
+//     item.addEventListener('click',() =>{
+//         fetch("/Projects/LuxuryWatchesPHP/public/cart/delete", {
+//             method: 'POST',
+//             body: JSON.stringify({id}),
+//         }).then(data=>data.text())
+//         .then(data=>{
+//             showCart(data);
+//         }).catch(()=>alert('Error!'))
+//     });
+// });
+    
 function showCart(cart) {
     if(cart.trim() == '<h3>Basket is empty</h3>') {
         $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'none');

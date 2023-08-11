@@ -12,6 +12,13 @@ use shop\Db;
                     echo json_encode($products);
                 }
             }
-            die;
+        }
+        public function indexAction() {
+            $query = trim($_GET['s']) ?? null;
+            if($query) {
+                $products = Db::getPreparedQuery("SELECT * FROM product WHERE title LIKE ?",[["VALUE"=>"%{$query}%", "PARAMVALUE"=>128]]);
+            }
+            $this->setMeta('Search for: '. h($query));
+            $this->set(compact('products', 'query'));
         }
     }

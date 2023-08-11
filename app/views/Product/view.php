@@ -12,7 +12,7 @@
         <div class="container">
             <div class="breadcrumbs-main">
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="<?=PATH;?>">Home</a></li>
                     <li class="active">Single</li>
 					<?=$breadcrumbs;?>
                 </ol>
