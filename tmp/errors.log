@@ -122,3 +122,19 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 [2023-08-11 10:56:38] Текст ошибки: Method app\controllers\UserController::publicAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 10:02:35] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 10:03:27] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 10:03:31] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 12:19:46] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWatchesPHP/app/views/Cart/checkout.php | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 13:16:38] Текст ошибки: syntax error, unexpected ')', expecting '|' or variable (T_VARIABLE) | Файл: X:\PROJECTS\LuxuryWatchesPHP\app\models\Order.php | Строка: 22
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 13:27:29] Текст ошибки: Controller app\controllers\CartController not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 13:33:08] Текст ошибки: Function name must be a string | Файл: X:\PROJECTS\LuxuryWatchesPHP\app\models\Order.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 13:33:10] Текст ошибки: Function name must be a string | Файл: X:\PROJECTS\LuxuryWatchesPHP\app\models\Order.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~

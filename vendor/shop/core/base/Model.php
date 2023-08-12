@@ -16,7 +16,7 @@ use function PHPSTORM_META\type;
         public function load($data) {
             foreach($this->attributes as $name=>$value) {
                 if(isset($data[$name])) {
-                    $this->attributes[$name] = $data[$name];
+                    $this->attributes[$name] = getSafeString($data[$name]);
 
                 }
             }

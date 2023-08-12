@@ -31,7 +31,6 @@ document.querySelectorAll('.add-to-cart-link').forEach(link=>{
         let id = link.dataset.id,
             qty = document.querySelector('.quantity > input')?.value ?? 1,
             mod = document.querySelector('.available select')?.value;
-            console.log(id, qty, mod);
             fetch("/Projects/LuxuryWatchesPHP/public/cart/add", {
                 body:JSON.stringify({id, qty, mod}),
                 method: 'POST'
@@ -46,19 +45,20 @@ document.querySelectorAll('.add-to-cart-link').forEach(link=>{
     });
 });
 
-// document.querySelectorAll('.del-item').forEach(item=>{
-//     let id = item.dataset.id;
-//     console.log(id);
-//     item.addEventListener('click',() =>{
-//         fetch("/Projects/LuxuryWatchesPHP/public/cart/delete", {
-//             method: 'POST',
-//             body: JSON.stringify({id}),
-//         }).then(data=>data.text())
-//         .then(data=>{
-//             showCart(data);
-//         }).catch(()=>alert('Error!'))
-//     });
-// });
+$('#cart .modal-body, .content').on('click', '.del-item', function(){
+    var id = $(this).data('id');
+    $.ajax({
+        url: '/Projects/LuxuryWatchesPHP/public/cart/delete',
+        data: {id: id},
+        type: 'GET',
+        success: function(res){
+            showCart(res);
+        },
+        error: function(){
+            alert('Error!');
+        }
+    });
+});
     
 function showCart(cart) {
     if(cart.trim() == '<h3>Basket is empty</h3>') {

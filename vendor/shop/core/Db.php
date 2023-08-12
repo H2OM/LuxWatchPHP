@@ -1,7 +1,8 @@
 <?php
     namespace shop;
 
-    use PDO;
+use Exception;
+use PDO;
 
     class Db {
         use Tsingleton;
@@ -38,8 +39,17 @@
                 if(count($result) == 1) $result = $result[0];
                 return $result;
             } catch (\PDOException $e) {
-                throw new \PDOException("Не удалось связать параметры PDO   " . $e->getMessage());
+                $_SESSION['error'] = ("Не удалось связать параметры PDO   " . $e->getMessage());
+                throw new \PDOException();
             }
-            
+        }
+        public static function beginTransaction() {
+            self::$pdo->beginTransaction();
+        }
+        public static function commitTransaction() {
+            self::$pdo->commit();
+        }
+        public static function rollbackTransaction() {
+            self::$pdo->rollBack();
         }
     }

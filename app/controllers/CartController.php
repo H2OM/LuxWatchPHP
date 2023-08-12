@@ -2,6 +2,8 @@
     namespace app\controllers;
 
 use app\models\Cart;
+use app\models\Order;
+use app\models\User;
 use Error;
 use shop\Db;
 
@@ -25,6 +27,7 @@ use shop\Db;
             }
             $cart = new Cart();
             $cart->addToCart($product, $qty, $mod);   
+            
             if($this->isAjax()) {
                 $this->loadView('cart_modal');
             } 
@@ -39,9 +42,9 @@ use shop\Db;
                 $cart = new Cart();
                 $cart->deleteItem($id);
             } 
-            // if($this->isAjax()) {
-            //     $this->loadView('cart_modal');
-            // } 
+            if($this->isAjax()) {
+                $this->loadView('cart_modal');
+            } 
             redirect();
         }
         public function clearAction(){
@@ -53,5 +56,39 @@ use shop\Db;
         }
         public function viewAction() {
             $this->setMeta("Basket");
+        }
+        public function checkoutAction() {
+            if(!empty($_POST)) {
+                if(!User::checAuth()) {
+                    $user = new User();
+                    $user->load($_POST);
+                    if($user->validate()) {
+                        $preparedQueryAttr = [];
+                        foreach($user->attributes as $k=>$v) {
+                            if($k == "login") $user_id = $v;
+                            $k == "address" 
+                            ? array_push($preparedQueryAttr, ["VALUE"=>$v, "INT"=> 16, "PARAMVALUE"=>16])
+                            : ($k == "password"
+                            ? array_push($preparedQueryAttr, ["VALUE"=>password_hash($v, PASSWORD_DEFAULT), "PARAMVALUE"=>255])
+                            : array_push($preparedQueryAttr, ["VALUE"=>$v, "PARAMVALUE"=>22]));
+                        }
+                        try {
+                            Db::getPreparedQuery("INSERT INTO user (login, password, email, name, address) VALUES (?, ?,  ?, ?, ?)", $preparedQueryAttr);
+                        } catch(\PDOException $e) {
+                            $_SESSION['error'] = "Error with adding new user";
+                            redirect();
+                        }
+                    } else {
+                        $_SESSION['error'] = "Wrong arrguments";
+                        redirect();
+                    }
+                }
+                $data['user_id'] = $user_id ?? $_SESSION['user']['login'];
+                $data['note'] = getSafeString($_POST['note']) ?? '';
+                $user_email = $_SESSION['user']['email'] ?? $_POST['email'];
+                $order_id = Order::saveOrder($data);
+                Order::mailOrder($order_id, $user_email);
+            }
+            redirect();
         }
     }

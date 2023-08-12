@@ -28,7 +28,6 @@ use shop\Db;
                     $_SESSION['error'] = "Wrong arrguments";
                 }
                 redirect();
-                
             }
             $this->setMeta('Registration');
 

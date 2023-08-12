@@ -34,7 +34,7 @@
             $this->meta['keywords'] = $keywords;
         }
         public function isAjax() {
-            return (isset($_SERVER['HTTP_SEC_FETCH_SITE']) || (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest'));
+            return (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest') || ($_SERVER['HTTP_SEC_FETCH_DEST'] !== "document");
         }
         public function loadView($view,$vars = []) {
             extract($vars);

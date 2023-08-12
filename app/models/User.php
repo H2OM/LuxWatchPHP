@@ -36,5 +36,10 @@ use shop\Db;
             }
             return false;
         }
-        
+        public static function checAuth() {
+            return isset($_SESSION['user']);
+        }
+        public static function isAdmin() {
+            return (isset($_sESSION['user']) && $_SESSION['user']['role'] == "admin");
+        }
     }
