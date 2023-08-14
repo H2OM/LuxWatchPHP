@@ -39,6 +39,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<ul class="dropdown-menu">
 								<?php if(!empty($_SESSION['user'])) :?>
 									<li><a href="#">Hello, <?=h($_SESSION['user']['name']);?></a></li>
+									<li><a href="user/changeEmail">Change email</a></li>
 									<li><a href="user/logout">Logout</a></li>
 									<?php else:?>
 										<li><a href="user/signup">Sign up</a></li>
@@ -215,6 +216,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
+	<div class="preloader">
+		<span>Loading</span>
+	</div>
 	<script>
 		const path = "<?=PATH;?>";
 	</script>

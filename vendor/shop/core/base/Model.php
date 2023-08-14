@@ -3,7 +3,6 @@
 
     use shop\Db;
 
-use function PHPSTORM_META\type;
 
     abstract class Model {
         public $attributes = [];

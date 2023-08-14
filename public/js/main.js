@@ -1,3 +1,34 @@
+document.body.addEventListener('change', e=>{
+    if(e.target.classList.contains('filter_input')) {
+        let checked = document.querySelectorAll('.filter_input');
+            data ='';
+        checked.forEach(each=>{
+            if(each.checked) data += each.value + ',';
+        });
+        if(data) {
+            document.querySelector('.preloader').style.display = "block";
+            fetch(location.pathname + `?filter=${data}`,{
+                method: "GET"
+            }).then((answer)=>{
+                return answer.text();
+
+            }).then(answer=>{
+                document.querySelector('.product-one').innerHTML = answer;
+                let url = location.search.replace(/filter(.+?)(&|$)/g, '');
+                let newUrl = location.pathname + url + (location.search ? "&" : "?") + "filter=" + data;
+                newUrl = newUrl.replace('&&', '&');
+                newUrl = newUrl.replace('?&', '?');
+                history.pushState({}, '', newUrl);
+            })
+            .finally(()=>{
+                document.querySelector('.preloader').style.display = ""; 
+            });
+        }else {
+            window.location = location.pathname;
+        }
+    }
+});
+
 const products = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.whitespace,
     queryTokenizer: Bloodhound.tokenizers.whitespace,

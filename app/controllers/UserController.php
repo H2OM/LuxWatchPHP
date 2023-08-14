@@ -49,5 +49,18 @@ use shop\Db;
             if(isset($_SESSION['user'])) unset($_SESSION['user']);
             redirect();
         }
+        public function changeEmailAction() {
+            if(!empty($_POST)) {
+                try {
+                    $newEmail = getSafeString($_POST['email']);
+                    Db::getPreparedQuery("UPDATE user SET email=? WHERE email='{$_SESSION['user']['email']}'",[["VALUE"=>$newEmail, "PARAMVALUE"=>22]]);
+                    $_SESSION['user']['email'] = $newEmail;
+                    $_SESSION['success'] = "Your email successfully update";
+                } catch (\PDOException $e) {
+                    $_SESSION['error'] .= "Some error with change email";
+                }
+                redirect();
+            }
+        }
         
     }

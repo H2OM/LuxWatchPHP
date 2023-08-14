@@ -3183,4 +3183,45 @@ span.twitter-typeahead {
     color: white;
     text-shadow: 15px 15px 1px #bdbdbd;
 }
-
+.preloader {
+    position:fixed;
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 55;
+    font-size: 20px;
+    text-align: center;
+    background-color:white;
+    opacity: 0.7;
+}
+.preloader span::after {
+    content: "";
+    display: inline-block;
+    margin-left: 5px;
+    height: 15px;
+    background-color: black;
+    width: 1px;
+    animation: Loading 1s infinite;
+}
+.preloader span::before {
+    content: "";
+    display: inline-block;
+    height: 15px;
+    margin-right: 5px;
+    background-color: black;
+    width: 1px;
+    animation: Loading 1s infinite;
+}
+@keyframes Loading {
+    from {
+        width: 1px;
+    }
+    50% {
+        width: 100px;
+    }
+    to {
+        width: 1px;
+    }
+}

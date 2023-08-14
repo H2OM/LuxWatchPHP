@@ -138,3 +138,347 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 [2023-08-12 13:33:10] Текст ошибки: Function name must be a string | Файл: X:\PROJECTS\LuxuryWatchesPHP\app\models\Order.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 14:27:49] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 14:29:07] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 14:29:11] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 14:29:58] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 14:30:25] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-12 14:30:29] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 05:05:08] Текст ошибки: syntax error, unexpected 'static' (T_STATIC) | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mailer\Transport\AbstractTransport.php | Строка: 49
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 05:06:23] Текст ошибки: syntax error, unexpected 'static' (T_STATIC) | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mailer\Transport\AbstractTransport.php | Строка: 49
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 05:37:31] Текст ошибки: Process could not be started: ���⥬� �� 㤠���� ���� 㪠����� ����.
+ | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mailer\Transport\Smtp\Stream\ProcessStream.php | Строка: 44
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 05:38:45] Текст ошибки: Process could not be started: ���⥬� �� 㤠���� ���� 㪠����� ����.
+ | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mailer\Transport\Smtp\Stream\ProcessStream.php | Строка: 44
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 06:41:57] Текст ошибки: syntax error, unexpected ':', expecting ')' | Файл: C:\Projects\LuxuryWatchesPHP\app\models\Order.php | Строка: 44
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 07:00:01] Текст ошибки: Method app\controllers\UserController::changeEmailAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 07:00:41] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/User/changeEmail.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 07:30:58] Текст ошибки: syntax error, unexpected ')', expecting '|' or variable (T_VARIABLE) | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 59
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 07:39:00] Текст ошибки: Email "John" does not comply with addr-spec of RFC 2822. | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mime\Address.php | Строка: 56
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:52:33] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:53:18] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:53:37] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:53:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:53:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:54:15] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:54:15] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:54:15] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:54:58] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:54:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:54:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:55:04] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:55:04] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 15:55:04] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 18:41:26] Текст ошибки: Controller app\controllers\admin\MainController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:33:32] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:33:39] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 19:34:16] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 20:03:16] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-13 20:04:51] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~

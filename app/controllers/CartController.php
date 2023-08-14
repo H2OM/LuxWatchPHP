@@ -22,7 +22,6 @@ use shop\Db;
                         ["VALUE"=>$mode_id, "PARAMVALUE"=>128, "INT"=>true], 
                         ["VALUE"=>$id, "PARAMVALUE"=>128, "INT"=>true]
                     ]);
-
                 }
             }
             $cart = new Cart();

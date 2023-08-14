@@ -5,7 +5,12 @@
             "app\\": "app"
         }
     },
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        }
+    },
     "require": {
-        "gabordemooij/redbean": "dev-master"
+        "symfony/mailer": "^5.0"
     }
 }
