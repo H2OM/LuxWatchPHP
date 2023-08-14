@@ -10,7 +10,6 @@
         public $rules = [];
 
         public function __construct() {
-            Db::instance();
         }
         public function load($data) {
             foreach($this->attributes as $name=>$value) {

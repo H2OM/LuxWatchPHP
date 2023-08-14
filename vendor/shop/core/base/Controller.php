@@ -1,5 +1,8 @@
 <?php
     namespace shop\base;
+
+use shop\Db;
+
     abstract class Controller {
         public $route;
         public $controller;
@@ -17,7 +20,7 @@
             $this->view= $route['action'];
             $this->prefix = $route['prefix'];
             $this->alias = $route['alias'] ?? null;
-            
+            Db::instance();
         }
 
         public function getView() {

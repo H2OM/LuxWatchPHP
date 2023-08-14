@@ -11,6 +11,6 @@
         }
     },
     "require": {
-        "symfony/mailer": "^5.0"
+        "symfony/mailer": "^5.1"
     }
 }

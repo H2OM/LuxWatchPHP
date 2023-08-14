@@ -482,3 +482,59 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 [2023-08-13 20:04:51] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:27:39] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:30:55] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:31:11] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:31:13] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:33:36] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order' WHERE status='0'' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:35:35] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order' WHERE status='0'' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:36:23] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order' WHERE status=0' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:36:37] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order WHERE status=0' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:36:39] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order WHERE status=0' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:37:56] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order WHERE status=0' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:37:57] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order WHERE status=0' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:38:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:39:02] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:39:02] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:39:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:40:10] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order' WHERE status='0'' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:40:53] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:41:25] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:41:26] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:41:26] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:41:26] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:41:44] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:43:42] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:43:42] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:43:43] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:49:40] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'watches_shop.users' doesn't exist | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 15:49:41] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'watches_shop.users' doesn't exist | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-14 16:01:04] Текст ошибки: Controller app\controllers\admin\OrderController not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~

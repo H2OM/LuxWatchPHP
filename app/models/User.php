@@ -40,6 +40,6 @@ use shop\Db;
             return isset($_SESSION['user']);
         }
         public static function isAdmin() {
-            return (isset($_sESSION['user']) && $_SESSION['user']['role'] == "admin");
+            return (isset($_SESSION['user']) && $_SESSION['user']['role'] == "admin");
         }
     }

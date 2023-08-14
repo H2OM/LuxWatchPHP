@@ -1,7 +1,6 @@
 <?php
     namespace shop;
 
-use Exception;
 use PDO;
 
     class Db {
