@@ -24,7 +24,7 @@ use PDO;
             }
             return $out;
         }
-        public static function getPreparedQuery($request, $parrametrs = []) {
+        public static function getPreparedQuery($request, $parrametrs = [], $count = false) {
             try {
                 $state = self::$pdo->prepare($request);
                 for($i = 1; $i <= count($parrametrs); $i++) {
@@ -36,6 +36,7 @@ use PDO;
                     array_push($result, $row);
                 }
                 if(count($result) == 1) $result = $result[0];
+                if($count) $result = $result[array_key_first($result)];
                 return $result;
             } catch (\PDOException $e) {
                 $_SESSION['error'] = ("Не удалось связать параметры PDO   " . $e->getMessage());

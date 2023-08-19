@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html> 
 <head>
-<base href="/Projects/LuxuryWatchesPHP/public/">
+<base href="<?=PATH?>/public/">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />	

@@ -538,3 +538,111 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 [2023-08-14 16:01:04] Текст ошибки: Controller app\controllers\admin\OrderController not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
 ~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 13:35:27] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 13:41:20] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 13:43:48] Текст ошибки: Controller app\controllers\admin\OrderController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 13:43:49] Текст ошибки: Controller app\controllers\admin\OrderController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 13:50:29] Текст ошибки: Controller app\controllers\admin\ReloadController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 14:53:25] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 14:53:46] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 14:54:54] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 14:55:43] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:02:18] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:06:01] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:08:21] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:10:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:10:04] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:11:18] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:11:19] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:11:54] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:12:41] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:12:42] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:13:41] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:14:05] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:16:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:19:05] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:20:54] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:20:56] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:24:27] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:25:06] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:25:07] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:25:14] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:25:19] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:25:23] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:25:33] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:25:34] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:30:37] Текст ошибки: syntax error, unexpected ')' | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\views\admin\Order\index.php | Строка: 47
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:35:45] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #8 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'watches_shop.order_product.qty' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-17 15:43:19] Текст ошибки: syntax error, unexpected '$k' (T_VARIABLE), expecting ';' or ',' | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\views\admin\Order\index.php | Строка: 52
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-18 08:13:41] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-18 08:13:53] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-18 11:22:59] Текст ошибки: Method app\controllers\admin\CategoryController::editAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-18 11:27:22] Текст ошибки: Method app\controllers\admin\CategoryController::editAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-18 11:27:27] Текст ошибки: Method app\controllers\admin\CategoryController::editAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-18 11:36:29] Текст ошибки: Method app\controllers\admin\CategoryController::editAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-18 11:43:51] Текст ошибки: На найден вид C:\Program Files\Ampps\www\LuxuryWatchesPHP/app/views/admin\Category/delete.php | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-18 11:51:15] Текст ошибки: syntax error, unexpected ')', expecting '|' or variable (T_VARIABLE) | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\CategoryController.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-19 08:49:58] Текст ошибки: Method app\controllers\admin\CategoryController::addAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-19 08:58:23] Текст ошибки: Method app\controllers\admin\CategoryController::addAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-19 08:58:29] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-19 08:58:37] Текст ошибки: Controller app\controllers\admin\CacheController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-19 08:58:47] Текст ошибки: Method app\controllers\admin\UserController::addAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-19 10:47:27] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-19 10:49:07] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-19 17:59:48] Текст ошибки: Controller app\controllers\admin\CacheController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-19 18:00:13] Текст ошибки: Method app\controllers\admin\UserController::indexAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-19 18:01:10] Текст ошибки: Method app\controllers\admin\UserController::indexAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~

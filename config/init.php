@@ -9,8 +9,8 @@
     define("CACHE", ROOT . '/tmp/cache');
     define("CONF", ROOT . '/config');
     define("LAYOUT", 'Watches');
-    
     // http://ishop2.loc/public/index.php
+    define("MAIN", "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}");
     $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
     // http://ishop2.loc/public/
     $app_path = preg_replace("#[^/]+$#", '', $app_path);

@@ -5,8 +5,14 @@ use shop\App;
 
     class Category extends AppModel {
 
-        public function getIds($id) {
+        public $attributes = [
+            'title'=>'',
+            'parent_id'=>'',
+            'keywords'=>'',
+            'description'=>''
+        ];
 
+        public function getIds($id) {
             $cats = App::$app->getProperty('cats');
             $ids = null;
             foreach($cats as $k=>$v) {

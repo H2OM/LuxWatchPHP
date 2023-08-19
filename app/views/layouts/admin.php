@@ -6,7 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <?=$this->getMeta();?>
-  <base href="/Projects/LuxuryWatchesPHP/public/adminLTE/">
+  <base href="<?=PATH?>/public/adminLTE/">
+  <base href="/LuxuryWatchesPHP/public/adminLTE/">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -19,6 +20,7 @@
   <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- JQVMap -->
   <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <link rel="stylesheet" href="my.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
   <!-- overlayScrollbars -->
@@ -30,7 +32,6 @@
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
-
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
     <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
@@ -44,10 +45,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="<?=MAIN;?>" class="nav-link">Home</a>
       </li>
     </ul>
 
@@ -187,10 +185,10 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="<?= ($_SESSION['user']['img'] ?? "dist/img/AdminLTELogo.png");?>" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <p class="d-block" style="color: white"><?=$_SESSION['user']['name'];?></p>
         </div>
       </div>
 
@@ -213,7 +211,7 @@
                with font-awesome or any other icon font library -->
             <li class="nav-header">Menu</li>
             <li class="nav-item">
-                <a href="<?=ADMIN;?>" class="nav-link active">
+                <a href="<?=ADMIN;?>" class="nav-link">
                 <i class="nav-icon fas fa-home"></i>
                 <p> Home</p>
                 </a>
@@ -269,6 +267,17 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
+      <?php if(isset($_SESSION['error'])):?>
+        <div class="alert alert-danger">
+          <?php echo $_SESSION['error']; unset($_SESSION['error']);?>
+        </div>
+      <?php endif;?>
+      <?php if(isset($_SESSION['success'])):?>
+        <div class="alert alert-success">
+          <?php echo $_SESSION['success']; unset($_SESSION['success']);?>
+        </div>
+      <?php endif;?>
+
     <?=$content;?>
   </div>
   <!-- /.content-wrapper -->
@@ -292,6 +301,7 @@
     const path = '<?=PATH;?>',
           adminpath = '<?=ADMIN?>';
 </script>
+<script src="../js/update.js"></script>
 <!-- jQuery -->
 <script src="plugins/jquery/jquery.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
@@ -299,6 +309,29 @@
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button)
+  document.querySelectorAll('.item-p').forEach(element=>{
+    const bar = element.querySelector('.list-group-item');
+    const handler = ({target})=> {
+      if(element.contains(target)) 
+        bar.style.backgroundColor = "rgb(240, 240, 240)";
+      if(target.classList.contains(element.className)) 
+        bar.style.backgroundColor = "";
+    };
+    element.addEventListener("mouseover", handler);
+    element.addEventListener("mouseleave", handler);
+  });
+
+  document.querySelectorAll('.nav-sidebar .nav-link').forEach(elem=>{
+    let loc = window.location.protocol + '//' + window.location.host + window.location.pathname;
+    if(elem.getAttribute("href") === loc) {
+      elem.classList.add("active");
+      if(elem.parentNode.parentNode.nodeName === "UL") {
+        elem.parentNode.parentNode.previousElementSibling.classList.add("active");
+        elem.parentNode.parentNode.previousElementSibling.parentNode.classList.add("menu-open");
+      }
+    }
+  });
+
 </script>
 <!-- Bootstrap 4 -->
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>

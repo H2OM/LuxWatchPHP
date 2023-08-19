@@ -33,18 +33,16 @@
         }
         protected function run() {
             $cache = Cache::instance();
-            $this->menuHtml = $cache->get($this->cacheKey);
-            if($this->menuHtml) {
+            $this->data = $cache->get($this->cacheKey);
+            if(!$this->menuHtml) {
                 $this->data = App::$app->getProperty('cats');
                 if(!$this->data) {
-                    $this->data = $cats = Db::getQuery("SELECT * FROM {$this->table}");
+                    $this->data = $cats = Db::getQuery("SELECT * FROM {$this->table}", true);
                 }
-                $this->tree = $this->getTree();
-                $this->menuHtml = $this->getMenuHtml($this->tree);
-                if($this->cache) {
-                    $cache->set($this->cacheKey, $this->data, $this->cache);
-                }
+                $cache->set($this->cacheKey, $this->data, $this->cache);
             }   
+            $this->tree = $this->getTree();
+            $this->menuHtml = $this->getMenuHtml($this->tree);
             $this->output();
         }
         protected function output() {
@@ -54,6 +52,7 @@
                     $attrs .= " $k='$v' ";
                 }
             }
+            
             echo "<{$this->container} class='{$this->class}' $attrs>";
             echo $this->prepend;
             echo $this->menuHtml;
