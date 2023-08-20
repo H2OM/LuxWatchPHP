@@ -8,7 +8,13 @@
         <div class="row mb-2">
           <div class="col-sm-6">
             <h1 class="m-0">Order № <?=$order['id'];?></h1>
-          </div><!-- /.col -->
+            <?php if(!$order['status']):?> 
+                <a href="<?=ADMIN;?>/order/change?id=<?=$order['id'];?>&status=1" class="btn btn-success btn-xs">Accept</a>
+                <?php else:?>
+                   <a href="<?=ADMIN;?>/order/change?id=<?=$order['id'];?>&status=0" class="btn btn-default btn-xs">Unstage</a> 
+            <?php endif;?>
+            <a href="<?=ADMIN;?>/order/delete?id=<?=$order['id'];?>" class="btn btn-danger btn-xs delete">Reject</a> 
+        </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="<?=ADMIN;?>">Home</a></li>
@@ -57,7 +63,10 @@
                                 </tr>
                                 <tr>
                                     <td>Status:</td>
-                                    <td><?=$order['status'] ? "Complete" : "On process";?></td>
+                                    <?php
+                                        if($order['status']) echo '<td style="background-color: #8ec78e;">Complete</td>';
+                                            else echo '<td>On process</td>';
+                                    ?>
                                 </tr>
                                 <tr>
                                     <td>Customer:</td>
@@ -85,7 +94,8 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php $qty = 0; foreach($order_products as $product):?>
+                                    <?php $qty = 0; if(!is_array($order_products[array_key_first($order_products)])) $order_products = [$order_products];
+                                        foreach($order_products as $product):?>
                                         <tr>
                                             <td><?=$product['id'];?></td>
                                             <td><?=$product['title'];?></td>

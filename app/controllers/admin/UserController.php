@@ -23,12 +23,52 @@ use shop\libs\Pagination;
         }
         public function indexAction() {
             $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
-            $perpage = 1;
-            $count = Db::getQuery("SELECT COUNT(*) FROM `user`", false, true);
+            $perpage = 10;
+            $count = Db::getQuery("SELECT COUNT(*) FROM `user` WHERE role=1", false, true);
             $pagination = new Pagination($page, $perpage, $count);
             $start = $pagination->getStart();
-            $allUsers = Db::getQuery("SELECT `user`.name, `user`.login, `user`.email, `user`.address, COUNT(`order`.`id`) FROM `user` JOIN `order` ON `order`.`user_id`=`user`.`id` WHERE `user`.role=1 GROUP BY `user`.`id` LIMIT $start, $perpage");
+            $allUsers = Db::getQuery("SELECT user.id, user.name, user.login, user.email, user.address, COUNT(order.id) AS `orderCount` FROM `user`
+            LEFT JOIN `order` ON user.id=order.user_id WHERE user.role=1 GROUP BY user.id LIMIT $start, $perpage");
             $this->set(compact('allUsers', 'pagination', 'count'));
             $this->setMeta("List of users");
+        }
+        public function editAction() {
+            $user_id = $_GET['id'] ?? $_POST['id'] ?? redirect(ADMIN. "/user");
+            if(!empty($_POST)) {
+                $user = new User();
+                $user->load($_POST);
+                if($user->validate(true)) {
+                    $preparedQueryAttr = [];
+                    foreach($user->attributes as $k=>$v) {
+                        switch($k) {
+                            case "id": break;
+                            case "address":
+                                array_push($preparedQueryAttr, ["VALUE"=>$v, "INT"=> 16, "PARAMVALUE"=>16]);
+                                break;
+                            case "password":
+                                if($v == '') break;
+                                array_push($preparedQueryAttr, ["VALUE"=>password_hash($v, PASSWORD_DEFAULT), "PARAMVALUE"=>255]);
+                                break;
+                            default:
+                                array_push($preparedQueryAttr, ["VALUE"=>$v, "PARAMVALUE"=>22]);
+                            break;
+                        }
+                    }
+                    array_push($preparedQueryAttr, ["VALUE"=>$user_id, "INT"=> true, "PARAMVALUE"=>100]);
+                    try {
+                        Db::getPreparedQuery("UPDATE `user` SET login=?," . (!empty($_POST['password'] ? " password=?" : "")) ." email=?, name=?, address=? WHERE id=?", $preparedQueryAttr);
+                        $_SESSION['success'] = "A user successfully updated";
+                    } catch(\PDOException $e) {
+                        $_SESSION['error'] .= "Error with updating user";
+                    }
+                } else {
+                    $_SESSION['error'] = "Wrong arrguments";
+                }
+                redirect();
+            }
+            
+            $user = Db::getPreparedQuery("SELECT * FROM user WHERE id=?", [["VALUE"=>$user_id, "INT"=>true, "PARAMVALUE"=>100]]);
+            $this->set(compact('user'));
+            $this->setMeta("Editing a user");
         }
     }

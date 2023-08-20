@@ -13,6 +13,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="<?=ADMIN;?>">Home</a></li>
+              <?php if(isset($_GET['nav']) && !empty($_GET['nav'])):?><li class="breadcrumb-item"><a href="<?=ADMIN ."/" . $_GET['nav'];?>">User list</a></li><?php endif;?>
               <li class="breadcrumb-item active">Order list</li>
             </ol>
           </div><!-- /.col -->
@@ -33,7 +34,8 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Customer</th>
+                                    <th>Customer name</th>
+                                    <th>Customer login</th>
                                     <th>Status</th>
                                     <th>Total</th>
                                     <th>Total price</th>
@@ -44,25 +46,16 @@
                             </thead>
                             <tbody>
                                 <?php foreach($orders as $k):?>
-                                    <tr class="<?=$k['status'] ? 'success' : '';?>">
+                                    <tr <?=$k['status'] ? 'style="background-color: #8ec78e;"' : '';?>>
                                         <td><?=$k['id'];?></td>
                                         <td><?=$k['name'];?></td>
+                                        <td><?=$k['login'];?></td>
                                         <td><?=$k['status'] ? "Complete" : "On process";?></td>
                                         <td><?=$k['qty'];?></td>
                                         <td><?=$k['sum'] . " " . $k['curr'];?></td>
                                         <td><?=$k['date'];?></td>
                                         <td><?=$k['update_at'];?></td>
-                                        <td>
-                                            <?php 
-                                                $result =ADMIN ."/order/view?";
-                                                foreach($k as $key=>$val) {
-                                                    $val = str_replace([" ", PHP_EOL], "", $val);
-                                                    $result .= "$key=$val&";
-                                                }
-                                                trim($result, "&");
-                                                echo "<a href=$result><i class='fa fa-fw fa-eye'></i></a>";
-                                            ?> 
-                                        </td>
+                                        <td><a href="<?=ADMIN . "/order/view?id=". $k['id'];?>"><i class='fa fa-fw fa-eye'></i></a></td>
                                     </tr>
                                 <?php endforeach;?>
                             </tbody>

@@ -28,7 +28,9 @@ use PDO;
             try {
                 $state = self::$pdo->prepare($request);
                 for($i = 1; $i <= count($parrametrs); $i++) {
-                    $state->bindParam($i, $parrametrs[$i-1]['VALUE'],($parrametrs[$i-1]['INT']?? false) ? PDO::PARAM_INT : PDO::PARAM_STR, $parrametrs[$i-1]['PARAMVALUE']);
+                    $state->bindParam(
+                        $i, $parrametrs[$i-1]['VALUE'],
+                        ($parrametrs[$i-1]['INT']   ?? false) ? PDO::PARAM_INT : PDO::PARAM_STR, $parrametrs[$i-1]['PARAMVALUE'] ?? null);
                 }
                 $state->execute();
                 $result = [];

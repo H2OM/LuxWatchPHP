@@ -646,3 +646,35 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 [2023-08-19 18:01:10] Текст ошибки: Method app\controllers\admin\UserController::indexAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 04:38:38] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order ON user.id=order.user_id GROUP BY user.id LIMIT 0, 1' at line 2 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 04:51:55] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 05:46:23] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 05:46:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 05:48:12] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 05:57:37] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 07:24:19] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'field list' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 07:24:48] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'field list' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 07:24:53] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'field list' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 07:26:26] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY userCount LIMIT 0, 10' at line 2 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 07:26:40] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY `userCount` LIMIT 0, 10' at line 2 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 07:28:29] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'field list' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 07:47:38] Текст ошибки: Method app\controllers\admin\OrderController::deleteAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 07:47:42] Текст ошибки: Method app\controllers\admin\OrderController::deleteAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 07:48:28] Текст ошибки: Method app\controllers\admin\OrderController::deleteAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-20 07:48:58] Текст ошибки: Method app\controllers\admin\OrderController::deleteAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~

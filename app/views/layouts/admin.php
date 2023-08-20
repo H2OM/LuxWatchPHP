@@ -331,6 +331,13 @@
       }
     }
   });
+  document.querySelectorAll('.delete').forEach(elem=>{
+    elem.addEventListener('click',(e)=>{
+      if(!confirm("Confirm deleting")) {
+        e.preventDefault();
+      }
+    });
+  });
 
 </script>
 <!-- Bootstrap 4 -->

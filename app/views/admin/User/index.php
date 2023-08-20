@@ -36,40 +36,28 @@
                                     <th>Login</th>
                                     <th>Email</th>
                                     <th>Address</th>
-                                    <th>Total price</th>
-                                    <th>Date of create</th>
-                                    <th>Date of last change</th>
-                                    <th>Action</th>
+                                    <th>Orders</th>
+                                    <th>View orders</th>
+                                    <th>Edit</th>
                                 </tr>   
                             </thead>
                             <tbody>
-                                <?php foreach($orders as $k):?>
-                                    <tr class="<?=$k['status'] ? 'success' : '';?>">
-                                        <td><?=$k['id'];?></td>
-                                        <td><?=$k['name'];?></td>
-                                        <td><?=$k['status'] ? "Complete" : "On process";?></td>
-                                        <td><?=$k['qty'];?></td>
-                                        <td><?=$k['sum'] . " " . $k['curr'];?></td>
-                                        <td><?=$k['date'];?></td>
-                                        <td><?=$k['update_at'];?></td>
-                                        <td>
-                                            <?php 
-                                                $result =ADMIN ."/order/view?";
-                                                foreach($k as $key=>$val) {
-                                                    $val = str_replace([" ", PHP_EOL], "", $val);
-                                                    $result .= "$key=$val&";
-                                                }
-                                                trim($result, "&");
-                                                echo "<a href=$result><i class='fa fa-fw fa-eye'></i></a>";
-                                            ?> 
-                                        </td>
-                                    </tr>
+                                <?php foreach($allUsers as $user):?>
+                                  <tr>
+                                      <td><?=$user['name'];?></td>
+                                      <td><?=$user['login'];?></td>
+                                      <td><?=$user['email'];?></td>
+                                      <td><?=$user['address'];?></td>
+                                      <td><?=$user['orderCount'];?></td>
+                                      <td><a href="<?=ADMIN;?>/order?searchByLogin=<?=$user['login'];?>&nav=user"><i class='fa fa-fw fa-eye'></i></a></td>
+                                      <td><a href="<?=ADMIN;?>/user/edit?id=<?=$user['id'];?>">Edit</a></td>
+                                  </tr>
                                 <?php endforeach;?>
                             </tbody>
                         </table>
                     </div>
                     <div class="text-center">
-                        <p>(<?=count($orders);?> of <?=$count;?> Orders)</p>
+                        <p>(<?=count($allUsers);?> of <?=$count;?> Users)</p>
                         <div class="align" style="display:flex; justify-content:center;">
                             <?php if($pagination->countPages > 1): ?>
                                 <?=$pagination;?>
