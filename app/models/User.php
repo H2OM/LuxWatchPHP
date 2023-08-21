@@ -9,7 +9,8 @@ use shop\Db;
             "password"=>'',
             "email"=>'',
             "name" =>'',
-            "address"=>''
+            "address"=>'',
+            "role"=> 'user'
         ];
         public function login($isAdmin = false) {
             $login = trim($_POST['login']) ?? null;

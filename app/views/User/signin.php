@@ -17,7 +17,7 @@
                 </form>
                 <div class="clearfix"></div>
 			</div>
-            <?php else: $_SESSION['success'] = "You already login";?>
+            <?php else: redirect(PATH)?>
             <?php endif;?>
         </div>
 	</div>

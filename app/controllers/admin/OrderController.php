@@ -1,7 +1,6 @@
 <?php
     namespace app\controllers\admin;
 
-use Error;
 use shop\Db;
 use shop\libs\Pagination;
 

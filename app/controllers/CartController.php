@@ -86,7 +86,13 @@ use shop\Db;
                 $data['note'] = getSafeString($_POST['note']) ?? '';
                 $user_email = $_SESSION['user']['email'] ?? $_POST['email'];
                 $order_id = Order::saveOrder($data);
-                Order::mailOrder($order_id, $user_email);
+                try {
+                    Order::mailOrder($order_id, $user_email);
+                } catch(\Exception $e) {
+
+                }
+                unset($_SESSION['cart'], $_SESSION['cart.qty'], $_SESSION['cart.sum'], $_SESSION['cart.currency']);  
+                $_SESSION['success'] = "Thank you for your order! The manager will contact you soon";
             }
             redirect();
         }

@@ -24,13 +24,23 @@ use shop\libs\Pagination;
         public function indexAction() {
             $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
             $perpage = 10;
-            $count = Db::getQuery("SELECT COUNT(*) FROM `user` WHERE role=1", false, true);
+            $count = Db::getQuery("SELECT COUNT(*) FROM `user`", false, true);
             $pagination = new Pagination($page, $perpage, $count);
             $start = $pagination->getStart();
-            $allUsers = Db::getQuery("SELECT user.id, user.name, user.login, user.email, user.address, COUNT(order.id) AS `orderCount` FROM `user`
-            LEFT JOIN `order` ON user.id=order.user_id WHERE user.role=1 GROUP BY user.id LIMIT $start, $perpage");
-            $this->set(compact('allUsers', 'pagination', 'count'));
+            $allUsers = Db::getQuery("SELECT user.id, user.name, user.login, user.email, user.address, user.role,COUNT(order.id) AS `orderCount` FROM `user`
+            LEFT JOIN `order` ON user.id=order.user_id GROUP BY user.id ORDER BY user.role LIMIT $start, $perpage");
+            $usersAdmins = [];
+            $usersUsers = [];
+            foreach($allUsers as $k=>$v) {
+                if($v['role'] == 'admin') array_push($usersAdmins, $allUsers[$k]);
+                    else array_push($usersUsers, $allUsers[$k]);
+            }
+            $this->set(compact('usersAdmins', 'usersUsers', 'pagination', 'count'));
             $this->setMeta("List of users");
+        }
+        public function addAction() {
+            if(isset($_SESSION['success'])) $_SESSION['success'] = "New user succefully added"; 
+            $this->setMeta("New user");
         }
         public function editAction() {
             $user_id = $_GET['id'] ?? $_POST['id'] ?? redirect(ADMIN. "/user");

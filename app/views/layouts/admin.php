@@ -45,7 +45,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="<?=MAIN;?>" class="nav-link">Home</a>
+        <a href="<?=MAIN;?>" class="nav-link">Main site</a>
       </li>
     </ul>
 

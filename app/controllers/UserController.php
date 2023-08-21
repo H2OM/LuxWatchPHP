@@ -19,7 +19,7 @@ use shop\Db;
                         : array_push($preparedQueryAttr, ["VALUE"=>getSafeString($v), "PARAMVALUE"=>22]));
                     }
                     try {
-                        Db::getPreparedQuery("INSERT INTO user (login, password, email, name, address) VALUES (?, ?,  ?, ?, ?)", $preparedQueryAttr);
+                        Db::getPreparedQuery("INSERT INTO user (login, password, email, name, address, role) VALUES (?, ?, ?, ?, ?, ?)", $preparedQueryAttr);
                         $_SESSION['success'] = "You have successfully registered";
                     } catch(\PDOException $e) {
                         $_SESSION['error'] = "Error with adding new user";
@@ -37,11 +37,11 @@ use shop\Db;
                 $user = new User();
                 if($user->login()){
                     $_SESSION['success'] = "You successfully login";
+                    redirect(PATH);
                 } else {
                     $_SESSION['error'] = "Error with autorization";
-                    
+                    redirect();
                 }
-                redirect();
             }
             $this->setMeta('Login');
         }

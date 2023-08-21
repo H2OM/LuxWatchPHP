@@ -61,7 +61,5 @@ use Symfony\Component\Mime\Email;
                 ->text("Your order is confirmed")
                 ->html($body);
             $mailer->send($email);
-            unset($_SESSION['cart'], $_SESSION['cart.qty'], $_SESSION['cart.sum'], $_SESSION['cart.currency']);  
-            $_SESSION['success'] = "Thank you for your order! The manager will contact you soon";
         }
     }
