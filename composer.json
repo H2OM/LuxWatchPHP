@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "shop\\": "./vendor/shop/core",
+            "app\\": "app"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        }
+    },
+    "require": {
+        "symfony/mailer": "^5.2"
+    }
+}
