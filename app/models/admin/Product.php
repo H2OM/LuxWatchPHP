@@ -20,18 +20,16 @@ use shop\Db;
             "content"=>'',
             "id"=>''
         ];
-        public function editFilter($id, $data, $isNew = false) {
-            
-            if(!$isNew) Db::getPreparedQuery("DELETE FROM `attribute_product` WHERE product_id=?", [["VALUE"=>$id, "INT"=>true, "PARAMVALUE"=>100]]); 
+        public function editDetails($id, $data, $table, $insertingAttrs, $isNew = false) {
+            if(!$isNew) Db::getPreparedQuery("DELETE FROM ". $table . " WHERE product_id=?", [["VALUE"=>$id, "INT"=>true, "PARAMVALUE"=>100]]); 
             $preparedQueryAttr = [];
             $sqlPart = '';
-            
             foreach($data as $k=>$v) {
                 $sqlPart .= "(?, ?),";
                 array_push($preparedQueryAttr, ["VALUE"=> $v, "INT"=>true]);
                 array_push($preparedQueryAttr, ["VALUE"=> $id, "INT"=>true]);
             }
             $sqlPart = rtrim($sqlPart, ',');
-            Db::getPreparedQuery("INSERT INTO `attribute_product` (attr_id, product_id) VALUES $sqlPart", $preparedQueryAttr);
+            Db::getPreparedQuery("INSERT INTO " .$table . " (" . $insertingAttrs . ", product_id) VALUES $sqlPart", $preparedQueryAttr);
         }
     }

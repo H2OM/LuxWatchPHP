@@ -47,7 +47,11 @@ use shop\libs\Pagination;
                     Db::getPreparedQuery("UPDATE `product` SET 
                     title=?, alias=?, price=?, old_price=?, status=?, keywords=?,
                     description=?, img=?, hit=?, category_id=?, brand_id=?, content=? WHERE id=?", $preparedQueryAttr);
-                    $product->editFilter($product_id, $_POST['attrs']);
+                    if(!isset($_POST['attrs'])) throw new Exception('');
+                    $product->editDetails($product_id, $_POST['attrs'], "`attribute_product`", "attr_id");
+                    if(isset($_POST['related'])) {
+                        $product->editDetails($product_id, $_POST['related'], "`related_product`","related_id");
+                    };
                     Db::commitTransaction();
                     $_SESSION['success'] = "Product successfully updated";
                 } catch (\Exception $e) {
@@ -111,7 +115,10 @@ use shop\libs\Pagination;
                     Db::getPreparedQuery("INSERT INTO `product` (title, alias, price, old_price, status, keywords, description, img, hit, category_id, brand_id, content) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", $preparedQueryAttr);
                     $id = Db::getQuery("SELECT LAST_INSERT_ID();", false, true);
                     if(!isset($_POST['attrs'])) throw new Exception('');
-                    $product->editFilter($id, $_POST['attrs'], true);
+                    $product->editDetails($id, $_POST['attrs'], "`attribute_product`","attr_id", true);
+                    if(isset($_POST['related'])) {
+                        $product->editDetails($id, $_POST['related'], "`related_product`","related_id", true);
+                    };
                     Db::commitTransaction();
                     $_SESSION['success'] = "Product successfully added";
                 } catch (\Exception $e) {
@@ -141,5 +148,20 @@ use shop\libs\Pagination;
                 $_SESSION['error'] .= "Database connecting error";
                 redirect();
             }
+        }
+        public function relatedProductAction() {
+            $q = $_GET['q'] ?? '';
+            $data['items'] = [];
+            $products = Db::getPreparedQuery("SELECT id, title FROM `product` WHERE title LIKE ? LIMIT 10", [["VALUE"=>"%$q%", "PARAMVALUE"=>40]], false, true);
+            if($products) {
+                $i = 0;
+                foreach($products as $id=>$title) {
+                    $data['items'][$i]['id'] = $id;
+                    $data['items'][$i]['text'] = $title['title'];
+                    $i++;
+                }
+            }
+            echo json_encode($data);
+            die;
         }
     }

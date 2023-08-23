@@ -9,13 +9,18 @@
   <base href="<?=PATH?>/public/adminLTE/">
   <base href="/LuxuryWatchesPHP/public/adminLTE/">
   <!-- Google Font: Source Sans Pro -->
+
+
+
+
+
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- iCheck -->
   <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- JQVMap -->
@@ -27,8 +32,18 @@
   <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
-  <!-- summernote -->
-  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+
+  <link rel="stylesheet" href="plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
+
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="plugins/summernote/summernote.min.css">
+  <link rel="stylesheet" href="plugins/select2/css/select2.min.css">
+
+  <link rel="stylesheet" href="plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+
+  <link rel="stylesheet" href="plugins/bs-stepper/css/bs-stepper.min.css">
+
+  <link rel="stylesheet" href="plugins/dropzone/min/dropzone.min.css">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -338,6 +353,20 @@
       }
     });
   });
+  document.querySelectorAll('.btn__reset_All').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+        document.querySelectorAll('.card-body .filter_input').forEach(element=>{
+          element.checked = false;
+        });
+    });
+  });
+  document.querySelectorAll('.btn__reset_Current').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+        document.querySelectorAll('.card-body .tab-pane.active .filter_input').forEach(element=>{
+          element.checked = false;
+        });
+    });
+  });
 
 </script>
 <!-- Bootstrap 4 -->
@@ -357,21 +386,50 @@
 <!-- Tempusdominus Bootstrap 4 -->
 <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
 <!-- Summernote -->
-<script src="plugins/summernote/summernote-bs4.min.js"></script>
+
 <!-- overlayScrollbars -->
 <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="dist/js/pages/dashboard.js"></script>
-<script src="../../plugins/summernote/summernote-bs4.min.js"></script>
+
+<script src="plugins/select2/js/select2.full.min.js"></script>
+
+
+<script src="plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+
+<script src="plugins/summernote/summernote.min.js"></script>
+
 <script>
-    $(document).ready(function() {
-      if($('#summernote')) {
-        $('#summernote').summernote();
-      }
+  $(document).ready(function() {
+    if($('#summernote')) {
+      $('#summernote').summernote();
+    }
+    if($('.select2')) {
+      $('.select2').select2({
+        placeholder: "Select related products",
+        minimumInputLength: 2,
+        cache: true,
+        ajax: {
+            url: adminpath + "/product/related-product",
+            delay: 250,
+            dataType: 'json',
+            data: function (params) {
+                return {
+                    q: params.term,
+                    page: params.page
+                };
+            },
+            processResults: function (data, params) {
+              return {
+                  results: data.items,
+              };
+            },
+        },
+      });
+      
+    } 
   });
 </script>
 </body>

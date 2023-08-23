@@ -33,3 +33,22 @@
     right: 0;
     top: 0;
 }
+.btn__reset {
+    align-self: center;
+    color: white;
+    padding: 0 10px 0 10px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 40px;
+    transition: 0.1s all;
+}
+.btn__reset_All {
+    background-color: #ff2237 ;
+}
+.btn__reset_Current {
+    background-color: #f02f42 ;
+}
+.btn__reset:active {
+    background-color: #fd7e8d ;
+}

@@ -24,7 +24,7 @@ use PDO;
             }
             return $out;
         }
-        public static function getPreparedQuery($request, $parrametrs = [], $count = false) {
+        public static function getPreparedQuery($request, $parrametrs = [], $count = false, $FKAAN = false) {
             try {
                 $state = self::$pdo->prepare($request);
                 for($i = 1; $i <= count($parrametrs); $i++) {
@@ -35,7 +35,7 @@ use PDO;
                 $state->execute();
                 $result = [];
                 while($row = $state->fetch()) {
-                    array_push($result, $row);
+                    $FKAAN ? $result[array_shift($row)] = $row : array_push($result, $row);
                 }
                 if(count($result) == 1) $result = $result[0];
                 if($count) $result = $result[array_key_first($result)];

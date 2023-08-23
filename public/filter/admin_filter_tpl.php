@@ -3,8 +3,9 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header d-flex p-0">
-                <h3 class="card-title p-3">Filters</h3>
-                
+                <h3 class="card-title p-3" style="border-right: 1px solid rgba(0,0,0,.125);">Filters</h3>
+                <button type="button" class="btn__reset btn__reset_All">Reset all filters</button>
+                <button type="button" class="btn__reset btn__reset_Current">Reset current filter</button>
                 <ul class="nav nav-pills ml-auto p-2">
                     <?php $i = 0;?>
                     <?php foreach($this->groups as $key=>$group):?>

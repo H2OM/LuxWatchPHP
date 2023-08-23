@@ -1,33 +1,33 @@
 <?php
-  $categories = $data['categories'];
-  $brands = $data['brands'];
- ?>
- <!-- Content Header (Page header) -->
- <div class="content-header">
-      <div class="container-fluid">
+$categories = $data['categories'];
+$brands = $data['brands'];
+?>
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
         <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0">Adding product</h1>
-          </div><!-- /.col -->
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="<?=ADMIN;?>">Home</a></li>
-              <li class="breadcrumb-item"><a href="<?=ADMIN;?>/product">Goods list</a></li>
-              <li class="breadcrumb-item active">Add new product</li>
-            </ol>
-          </div><!-- /.col -->
+            <div class="col-sm-6">
+                <h1 class="m-0">Adding product</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="<?= ADMIN; ?>">Home</a></li>
+                    <li class="breadcrumb-item"><a href="<?= ADMIN; ?>/product">Goods list</a></li>
+                    <li class="breadcrumb-item active">Add new product</li>
+                </ol>
+            </div><!-- /.col -->
         </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <div class="row">
             <div class="box" style="width: 100%;">
-                <form action="<?=ADMIN;?>/product/add" method="post">
+                <form action="<?= ADMIN; ?>/product/add" method="post">
                     <div class="box-body">
                         <div class="form-group">
                             <label for="title">Title</label>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="form-group">
                             <label for="status">
-                                Active <input type="checkBox" class="form-control" name="status" id="status" value="1" style="width: 20px; height:20px;"> 
+                                Active <input type="checkBox" class="form-control" name="status" id="status" value="1" style="width: 20px; height:20px;">
                             </label>
                         </div>
                         <div class="form-group">
@@ -67,35 +67,35 @@
                                 Hit <input type="checkBox" class="form-control" name="hit" id="hit" value="1" style="width: 20px; height:20px;">
                             </label>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="category">Parent category</label>
-                            <?php 
-                                $menu = new app\widgets\menu\Menu([
-                                    'tpl'=> DIR . '/menu/select.php',
-                                    'container' => 'select',
-                                    'class'=>'form-control',
-                                    'attrs'=>[
-                                        'name'=>'category',
-                                        'id'=>'category_id'
-                                    ]
-                                ]);
+                            <?php
+                            $menu = new app\widgets\menu\Menu([
+                                'tpl' => DIR . '/menu/select.php',
+                                'container' => 'select',
+                                'class' => 'form-control',
+                                'attrs' => [
+                                    'name' => 'category',
+                                    'id' => 'category_id'
+                                ]
+                            ]);
                             ?>
                         </div>
                         <div class="form-group">
                             <label for="brand">Brand</label>
-                            <?php 
-                                $menu = new app\widgets\menu\Menu([
-                                    'tpl'=> DIR . '/menu/select.php',
-                                    'container' => 'select',
-                                    'class'=>'form-control',
-                                    'attrs'=>[
-                                        'name'=>'brand',
-                                        'id'=>'brand_id'
-                                    ]
-                                ], false);
-                                $menu->menuHtml = $menu->getMenuHtml($brands);
-                                $menu->output();
+                            <?php
+                            $menu = new app\widgets\menu\Menu([
+                                'tpl' => DIR . '/menu/select.php',
+                                'container' => 'select',
+                                'class' => 'form-control',
+                                'attrs' => [
+                                    'name' => 'brand',
+                                    'id' => 'brand_id'
+                                ]
+                            ], false);
+                            $menu->menuHtml = $menu->getMenuHtml($brands);
+                            $menu->output();
                             ?>
                         </div>
                         <div class="form-group">
@@ -104,17 +104,60 @@
                             </label>
                         </div>
                         <div class="form-group">
-                            <?php new \app\widgets\filter\Filter(null, DIR . '/filter/admin_filter_tpl.php');?>
+                            <label for="related">Related products</label>
+                            <select name="related[]" class="select2 select2-hidden-accessible" multiple="multiple" style="width: 100%;">
+                            </select>
                         </div>
-                   </div>
-                   <div class="box-footer">
+                        <div class="form-group">
+                            <?php new \app\widgets\filter\Filter(null, DIR . '/filter/admin_filter_tpl.php'); ?>
+                        </div>
+                        <div class="form-group" style="display: flex;">
+                            <div class="col-md-4">
+                            <div class="card card-danger">
+                                <div class="card-header">
+                                    <h3 class="card-title">Basic image</h3>
+                                </div>
+                                <div class="card-body">
+                                    <div id="single" class="btn btn-success" data-url="product/add-image" data-name="single">
+                                        Select file
+                                    </div>
+                                    <p><small>Recomend size: 125x200</small></p>
+                                    <div class="single"></div>
+                                </div>
+
+                                <div class="overlay dark" style="display: none;">
+                                    <i class="fas fa-2x fa-sync-alt"></i>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card card-primary">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Gallery images</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="multi" class="btn btn-success" data-url="product/add-image" data-name="multi">
+                                            Select file
+                                        </div>
+                                        <p><small>Recomend size: 700x1000</small></p>
+                                        <div class="multi"></div>
+                                    </div>
+
+                                    <div class="overlay dark" style="display: none;">
+                                        <i class="fas fa-2x fa-sync-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-footer">
                         <button type="submit" class="btn btn-primary">Save</button>
-                   </div>
-                </form>    
+                    </div>
+                </form>
             </div>
         </div>
         <!-- /.row -->
-        
-      </div><!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
+
+    </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->
