@@ -165,7 +165,8 @@ use shop\libs\Pagination;
             die;
         }
         public function addImageAction() {
-            echo "p-4.png";
+            sleep(2);
+            echo json_encode(["p-4.png", "p-3.png", "p-2.png", "p-4.png", "p-3.png", "p-2.png", "p-4.png", "p-3.png", "p-2.png"]);
             die;
         }
     }

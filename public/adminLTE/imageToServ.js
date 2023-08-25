@@ -2,7 +2,6 @@ document.querySelectorAll('#single, #multi').forEach(loader=>{
     
     loader.addEventListener('change', ()=>{
         loader.parentElement.parentElement.querySelector('.fileError')?.remove();
-        loader.parentElement.parentElement.querySelector('.' + loader.dataset.name).setAttribute("style", "");
         if(loader.files.length > 0) {
             let data = new FormData();
             for(let file in loader.files) {
@@ -30,7 +29,7 @@ document.querySelectorAll('#single, #multi').forEach(loader=>{
                     }
                 }
             }
-            // loader.parentElement.querySelector('.overlay.dark').style.display = "";
+            loader.parentElement.parentElement.parentElement.querySelector('.overlay.dark').setAttribute("style", "");
             fetch(adminpath + "/" + loader.dataset.url,{
                 method: "POST",
                 body : data
@@ -38,12 +37,26 @@ document.querySelectorAll('#single, #multi').forEach(loader=>{
                 if(!data.ok) {
                     throw new Error();
                 }
-                return data.text();
+                return data.json();
             }).then(data=>{
-                // console.log(data);
-                // loader.parentElement.querySelector('.overlay.dark').style.display = "none";
-                loader.parentElement.parentElement.querySelector('.' + loader.dataset.name).setAttribute("style", "");
-                loader.parentElement.parentElement.querySelector('.' + loader.dataset.name).innerHTML = "<img class='image-card__image' src='../images/" + data +"'><hr class='image-card__hr'><span class='image-card__desc'>" + data + "</span>";
+                loader.parentElement.parentElement.querySelectorAll('.' + loader.dataset.name + '> .image-card')?.forEach(card=>card.remove());
+                loader.parentElement.parentElement.querySelector('.' + loader.dataset.name).innerHTML = "";
+                data.forEach(name=>{
+                    let imageCard = document.createElement("div");
+                    imageCard.classList.add("image-card");
+                    let img = new Image();
+                    img.src = '../images/' + name;
+                    img.classList.add('image-card__image');
+                    imageCard.appendChild(img);
+                    imageCard.innerHTML +="<hr class='image-card__hr'><span class='image-card__desc'>" + name + "</span>";
+                    img.onload = ()=> {
+                        loader.parentElement.parentElement.querySelector('.' + loader.dataset.name).appendChild(imageCard);
+                        loader.parentElement.parentElement.querySelector('.' + loader.dataset.name).setAttribute("style", "");
+                    }
+                });
+                
+            }).then(()=>{
+                loader.parentElement.parentElement.parentElement.querySelector('.overlay.dark').setAttribute("style", "display:none;");
             }).catch((e)=>{
                 const errorMeassage = document.createElement("div");
                 errorMeassage.setAttribute("class", "fileError alert alert-danger alert-dismissible");

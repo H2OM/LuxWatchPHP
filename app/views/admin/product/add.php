@@ -125,7 +125,7 @@ $brands = $data['brands'];
                                         <input style="display: none; " type="file" name="file" id="single" data-url="product/add-image" data-name="single">
                                         <p style="margin: 0px;"><small>Recomend size: 125x200</small></p>
                                     </div>
-                                    <div class="image-card single" style="display: none;"></div>
+                                    <div class="selectedImages single" style="display: none;"></div>
                                 </div>
 
                                 <div class="overlay dark" style="display: none;">
@@ -146,7 +146,7 @@ $brands = $data['brands'];
                                             <input style="display: none;" type="file" name="file" id="multi" data-url="product/add-image" data-name="multi" multiple>
                                             <p style="margin: 0px;"><small>Recomend size: 700x1000</small></p>
                                         </div>
-                                        <div class="image-card multi" style="display:none;">
+                                        <div class="selectedImages multi" style="display:none;">
                                         </div>
                                     </div>
 
