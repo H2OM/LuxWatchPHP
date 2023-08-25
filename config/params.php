@@ -8,4 +8,8 @@
         'smtp_protocol' => 'ssl',
         'smtp_login' => 'dima.zabolotnov.02@mail.ru',
         'smtp_password' => '9h1KJY07QPafARkjBqca',
+        'img_width' => 125,
+        'img_height'=> 200,
+        'gallery_width' => 700,
+        'gallery_width' => 1000
     ];

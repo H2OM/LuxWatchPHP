@@ -9,22 +9,25 @@
 
         protected $data;
         protected $tree;
-        protected $menuHtml;
+        public $menuHtml;
         protected $tpl;
         protected $container = 'ul';
         protected $class = 'menu';
         protected $table = 'category';
         protected $cache = '3600';
         protected $cacheKey = 'cats';
+        protected $elementCond = '';
+        protected $elementCondId = '';
         protected $attrs = [];
         protected $prepend = '';
 
-        public function __construct($options = []) {
+        public function __construct($options = [], $auto = true) {
             $this->tpl = __DIR__ . '\menu_tpl\menu.php';
             $this->getOptions($options);
-            $this->run();
+            if($auto) $this->run();
         }
         protected function getOptions($options) {
+            
             foreach($options as $k =>$v) {
                 if(property_exists($this, $k)) {
                     $this->$k = $v;
@@ -45,22 +48,21 @@
             $this->menuHtml = $this->getMenuHtml($this->tree);
             $this->output();
         }
-        protected function output() {
+        public function output() {
             $attrs = '';
             if(!empty($this->attrs)){
                 foreach($this->attrs as $k => $v){
                     $attrs .= " $k='$v' ";
                 }
             }
-            
             echo "<{$this->container} class='{$this->class}' $attrs>";
             echo $this->prepend;
             echo $this->menuHtml;
             echo "</{$this->container}>";
         }
-        protected function getTree(){
+        public function getTree($data = false){
             $tree = [];
-            $data = $this->data;
+            if(!$data) $data = $this->data;
             foreach ($data as $id=>&$node) {
                 if (!$node['parent_id']){
                     $tree[$id] = &$node;
@@ -70,14 +72,22 @@
             }
             return $tree;
         }
-        protected function getMenuHtml ($tree, $tab = '') {
+        public function getMenuHtml ($tree, $tab = '') {
             $str = '';
+            $cond = $this->elementCond;
             foreach($tree as $id=>$category) {
                 $str .= $this->catToTemplate($category, $tab, $id);
             }
             return $str;
         }
         protected function catToTemplate($category, $tab, $id) {
+            $cond = '';
+            if($this->elementCond == '') {
+                $cond = ((isset($_GET['id']) && $id==$_GET['id']) ? 'disabled style="background-color: #c9c9c9; color:#9b9999;"' : "");
+            
+            } else if($id == $this->elementCondId) {
+                $cond = $this->elementCond;
+            } 
             ob_start();
             require $this->tpl;
             return ob_get_clean();

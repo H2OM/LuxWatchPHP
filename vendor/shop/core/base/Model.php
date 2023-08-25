@@ -13,7 +13,7 @@
         }
         public function load($data) {
             foreach($this->attributes as $name=>$value) {
-                if(isset($data[$name])) {
+                if(isset($data[$name]) && !empty($data[$name])) {
                     $this->attributes[$name] = getSafeString($data[$name]);
 
                 }

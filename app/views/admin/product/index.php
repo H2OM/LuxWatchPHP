@@ -34,6 +34,7 @@
                                 <tr>
                                     <th>ID</th>
                                     <th>Category</th>
+                                    <th>Brand</th>
                                     <th>Title</th>
                                     <th>Price</th>
                                     <th>Status</th>
@@ -46,10 +47,11 @@
                                     <tr <?=($product['status'] ? "style: background-color: '#c9c9c9'" : "");?>>
                                         <td><?=$product['id'];?></td>
                                         <td><?=$product['cat'];?></td>
+                                        <td><?=$product['brand'];?></td>
                                         <td><?=$product['title'];?></td>
                                         <td><?=$product['price'];?></td>
                                         <td><?=$product['status'] ? "Active" : "Unactive";?></td>
-                                        <td><a href="<?=ADMIN . "/product/edit?id=". $product['id'];?>"><i class='fa fa-fw fa-eye'></i></a></td>
+                                        <td><a href="<?=ADMIN . "/product/edit?id=". $product['id'];?>&currPage=<?=$pagination->currentPage;?>"><i class='fa fa-fw fa-eye'></i></a></td>
                                         <td><a href="<?=ADMIN . "/product/delete?id=". $product['id'];?>" style="color: red; text-decoration:underline;">Delete</a></td>
                                     </tr>
                                 <?php endforeach;?>

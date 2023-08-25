@@ -9,8 +9,10 @@ use shop\Db;
         public $groups;
         public $attrs;
         public $tpl;
-        public function __construct() {
-            $this->tpl = __DIR__ . '/filter_tpl.php';
+        public $filter;
+        public function __construct($filter = null, $tpl = null) {
+            $this->filter = $filter;
+            $this->tpl = $tpl ?? __DIR__ . '/filter_tpl.php';
             $this->run();
         }
         protected function run () {

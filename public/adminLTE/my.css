@@ -33,3 +33,47 @@
     right: 0;
     top: 0;
 }
+.btn__reset {
+    align-self: center;
+    color: white;
+    padding: 0 10px 0 10px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    min-height: 40px;
+    transition: 0.1s all;
+}
+.btn__reset_All {
+    background-color: #ff2237 ;
+}
+.btn__reset_Current {
+    background-color: #f02f42 ;
+}
+.btn__reset:active {
+    background-color: #fd7e8d ;
+}
+.image-card {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;            
+    width: 100px;
+    border: 1px solid rgba(0,0,0,.125);   
+    border-radius: 4px;
+    flex-direction: column;
+}
+.image-card__image {
+    max-width: 60px;
+    margin: 8px;
+}
+.image-card__desc {
+    display: block;
+    padding-bottom: 5px;
+}
+.image-card__hr {
+    border: none;
+    background-color: rgba(0,0,0,.125);
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    
+}

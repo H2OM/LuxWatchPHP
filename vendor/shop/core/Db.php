@@ -24,18 +24,18 @@ use PDO;
             }
             return $out;
         }
-        public static function getPreparedQuery($request, $parrametrs = [], $count = false) {
+        public static function getPreparedQuery($request, $parrametrs = [], $count = false, $FKAAN = false) {
             try {
                 $state = self::$pdo->prepare($request);
                 for($i = 1; $i <= count($parrametrs); $i++) {
                     $state->bindParam(
                         $i, $parrametrs[$i-1]['VALUE'],
-                        ($parrametrs[$i-1]['INT']   ?? false) ? PDO::PARAM_INT : PDO::PARAM_STR, $parrametrs[$i-1]['PARAMVALUE'] ?? null);
+                        ($parrametrs[$i-1]['INT'] ?? false) ? PDO::PARAM_INT : PDO::PARAM_STR, $parrametrs[$i-1]['PARAMVALUE'] ?? null);
                 }
                 $state->execute();
                 $result = [];
                 while($row = $state->fetch()) {
-                    array_push($result, $row);
+                    $FKAAN ? $result[array_shift($row)] = $row : array_push($result, $row);
                 }
                 if(count($result) == 1) $result = $result[0];
                 if($count) $result = $result[array_key_first($result)];

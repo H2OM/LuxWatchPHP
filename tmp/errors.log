@@ -1,702 +1,166 @@
-[2023-08-09 13:48:30] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Category/view.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+[2023-08-22 20:53:39] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 13:55:33] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Category/view.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+[2023-08-22 20:53:45] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 13:55:34] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Category/view.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+[2023-08-22 21:09:30] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 14:19:56] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/Search/typeahead.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+[2023-08-23 07:53:44] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 16:24:37] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+[2023-08-23 08:07:07] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 16:24:38] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+[2023-08-23 08:08:50] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 16:24:40] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+[2023-08-23 08:09:45] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 16:24:41] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+[2023-08-23 08:12:14] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 16:24:50] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+[2023-08-23 08:12:26] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 16:25:32] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+[2023-08-23 08:15:14] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 16:25:33] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+[2023-08-23 08:16:31] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 16:25:36] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category_id' in 'where clause' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+[2023-08-23 08:17:31] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 16:33:27] Текст ошибки: SQLSTATE[HY000]: General error: No fetch-into object specified. | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+[2023-08-23 08:18:59] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 16:33:29] Текст ошибки: SQLSTATE[HY000]: General error: No fetch-into object specified. | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+[2023-08-23 08:19:07] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 16:36:40] Текст ошибки: SQLSTATE[HY000]: General error: No fetch class specified | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
+[2023-08-23 08:21:13] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 20:53:55] Текст ошибки: Cannot use object of type app\models\User as array | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 11
+[2023-08-23 08:21:38] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 20:54:02] Текст ошибки: Cannot use object of type app\models\User as array | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 11
+[2023-08-23 08:22:36] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:09:10] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[42S02]: Base table or view not found: 1146 Table 'watches_shop.members' doesn't exist | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 41
+[2023-08-23 08:23:47] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:09:29] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 41
+[2023-08-23 08:24:17] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:10:24] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 41
+[2023-08-23 08:24:34] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:14:10] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 42
+[2023-08-23 08:24:59] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:14:11] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 42
+[2023-08-23 08:25:23] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:14:16] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 43
+[2023-08-23 08:26:43] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:16:58] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2fsf' for key 'user.login' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 43
+[2023-08-23 08:30:58] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:17:25] Текст ошибки: Не удалось связать параметры PDO   SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '151@ma.s' for key 'user.email' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 43
+[2023-08-23 08:31:43] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:24:54] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 23
+[2023-08-23 08:32:46] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:44:15] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 22
+[2023-08-23 08:34:55] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:45:15] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 22
+[2023-08-23 08:35:15] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 21:53:39] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 08:35:45] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:01:39] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 08:36:45] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:03:11] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 08:36:51] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:03:39] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 08:37:33] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:04:42] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 08:38:38] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:05:15] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 08:39:54] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:05:26] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 08:40:20] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:05:43] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 08:42:01] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:06:15] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 08:42:12] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:06:56] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 08:42:27] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:07:36] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
+[2023-08-23 08:47:50] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:07:39] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
+[2023-08-23 08:47:58] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:07:50] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
+[2023-08-23 08:48:05] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:07:51] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
+[2023-08-23 08:48:54] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:09:06] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
+[2023-08-23 08:49:01] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:09:39] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 27
+[2023-08-23 08:50:43] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:10:07] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 08:50:48] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:11:30] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 23
+[2023-08-23 08:55:28] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:11:33] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 23
+[2023-08-23 09:00:10] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:19:22] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 09:01:43] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:19:34] Текст ошибки: Error with adding new user | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 23
+[2023-08-23 09:01:48] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-09 22:20:02] Текст ошибки: Wrong arrguments | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 26
+[2023-08-23 09:04:48] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:41:11] Текст ошибки: Method app\controllers\UserController::signinAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-23 09:04:48] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:41:27] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/User/signin.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+[2023-08-23 09:04:48] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:50:48] Текст ошибки: Controller app\controllers\LoginController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+[2023-08-23 09:04:48] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:50:56] Текст ошибки: Controller app\controllers\SigninController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+[2023-08-23 09:04:49] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:51:14] Текст ошибки: Method app\controllers\UserController::loginAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-23 09:04:49] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:51:50] Текст ошибки: Method app\controllers\UserController::loginAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-23 09:04:49] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:54:09] Текст ошибки: Method app\controllers\UserController::luxuryWatchesPHPAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-23 09:04:49] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:54:19] Текст ошибки: Method app\controllers\UserController::luxuryWatchesPHPAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-23 10:05:49] Текст ошибки: Method app\controllers\admin\ProductController::relatedProductAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:54:47] Текст ошибки: Method app\controllers\UserController::indexAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-23 10:05:57] Текст ошибки: Method app\controllers\admin\ProductController::relatedProductAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:55:06] Текст ошибки: Method app\controllers\UserController::indexAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-23 10:05:57] Текст ошибки: Method app\controllers\admin\ProductController::relatedProductAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:55:07] Текст ошибки: Method app\controllers\UserController::indexAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-23 10:05:59] Текст ошибки: Method app\controllers\admin\ProductController::relatedProductAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-11 10:56:38] Текст ошибки: Method app\controllers\UserController::publicAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-23 10:21:39] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Ca% LIMIT 10' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 10:02:35] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-23 10:21:40] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Cas% LIMIT 10' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 10:03:27] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-23 10:21:44] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Ca% LIMIT 10' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 10:03:31] Текст ошибки: Page not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-08-23 10:21:46] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Cas% LIMIT 10' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 12:19:46] Текст ошибки: На найден вид X:\PROJECTS\LuxuryWatchesPHP/app/views/Cart/checkout.php | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+[2023-08-23 10:26:17] Текст ошибки: Cannot use string offset as an array | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\ProductController.php | Строка: 153
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 13:16:38] Текст ошибки: syntax error, unexpected ')', expecting '|' or variable (T_VARIABLE) | Файл: X:\PROJECTS\LuxuryWatchesPHP\app\models\Order.php | Строка: 22
+[2023-08-23 10:28:52] Текст ошибки: Cannot use string offset as an array | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\ProductController.php | Строка: 152
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 13:27:29] Текст ошибки: Controller app\controllers\CartController not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+[2023-08-23 10:28:53] Текст ошибки: Cannot use string offset as an array | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\ProductController.php | Строка: 152
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 13:33:08] Текст ошибки: Function name must be a string | Файл: X:\PROJECTS\LuxuryWatchesPHP\app\models\Order.php | Строка: 19
+[2023-08-23 10:31:37] Текст ошибки: Cannot use string offset as an array | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\ProductController.php | Строка: 152
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 13:33:10] Текст ошибки: Function name must be a string | Файл: X:\PROJECTS\LuxuryWatchesPHP\app\models\Order.php | Строка: 19
+[2023-08-23 10:31:38] Текст ошибки: Cannot use string offset as an array | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\ProductController.php | Строка: 152
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 14:27:49] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+[2023-08-23 10:32:45] Текст ошибки: Cannot use string offset as an array | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\ProductController.php | Строка: 153
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 14:29:07] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+[2023-08-23 10:33:33] Текст ошибки: Cannot use string offset as an array | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\ProductController.php | Строка: 153
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 14:29:11] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+[2023-08-23 10:33:33] Текст ошибки: Cannot use string offset as an array | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\ProductController.php | Строка: 153
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 14:29:58] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+[2023-08-24 14:42:32] Текст ошибки: Controller app\controllers\AdnibController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 14:30:25] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+[2023-08-24 20:19:38] Текст ошибки: Method app\controllers\admin\ProductController::addImageAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-12 14:30:29] Текст ошибки: There is no active transaction | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 53
+[2023-08-24 20:20:18] Текст ошибки: Method app\controllers\admin\ProductController::addImageAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 05:05:08] Текст ошибки: syntax error, unexpected 'static' (T_STATIC) | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mailer\Transport\AbstractTransport.php | Строка: 49
+[2023-08-24 20:24:28] Текст ошибки: Method app\controllers\admin\ProductController::addImageAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 05:06:23] Текст ошибки: syntax error, unexpected 'static' (T_STATIC) | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mailer\Transport\AbstractTransport.php | Строка: 49
+[2023-08-24 20:24:49] Текст ошибки: Method app\controllers\admin\ProductController::addImageAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 05:37:31] Текст ошибки: Process could not be started: ���⥬� �� 㤠���� ���� 㪠����� ����.
- | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mailer\Transport\Smtp\Stream\ProcessStream.php | Строка: 44
+[2023-08-24 20:25:00] Текст ошибки: Method app\controllers\admin\ProductController::addImageAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 05:38:45] Текст ошибки: Process could not be started: ���⥬� �� 㤠���� ���� 㪠����� ����.
- | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mailer\Transport\Smtp\Stream\ProcessStream.php | Строка: 44
+[2023-08-24 20:25:23] Текст ошибки: Method app\controllers\admin\ProductController::addImageAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 06:41:57] Текст ошибки: syntax error, unexpected ':', expecting ')' | Файл: C:\Projects\LuxuryWatchesPHP\app\models\Order.php | Строка: 44
+[2023-08-24 20:41:47] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 07:00:01] Текст ошибки: Method app\controllers\UserController::changeEmailAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-24 20:42:27] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 07:00:41] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/User/changeEmail.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 07:30:58] Текст ошибки: syntax error, unexpected ')', expecting '|' or variable (T_VARIABLE) | Файл: C:\Projects\LuxuryWatchesPHP\app\controllers\UserController.php | Строка: 59
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 07:39:00] Текст ошибки: Email "John" does not comply with addr-spec of RFC 2822. | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mime\Address.php | Строка: 56
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:52:33] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:53:18] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:53:37] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:53:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:53:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:54:15] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:54:15] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:54:15] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:54:58] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:54:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:54:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:55:04] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:55:04] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 15:55:04] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 18:41:26] Текст ошибки: Controller app\controllers\admin\MainController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:29:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:30:59] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:31:00] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:33:32] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:33:39] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 19:34:16] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 20:03:16] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-13 20:04:51] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:27:39] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:30:55] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:31:11] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:31:13] Текст ошибки: Call to a member function query() on null | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:33:36] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order' WHERE status='0'' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:35:35] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order' WHERE status='0'' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:36:23] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order' WHERE status=0' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:36:37] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order WHERE status=0' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:36:39] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order WHERE status=0' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:37:56] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order WHERE status=0' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:37:57] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order WHERE status=0' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:38:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 20
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:39:02] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:39:02] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:39:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:40:10] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''order' WHERE status='0'' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:40:53] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:41:25] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:41:26] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:41:26] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:41:26] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:41:44] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:43:42] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:43:42] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:43:43] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:49:40] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'watches_shop.users' doesn't exist | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 15:49:41] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'watches_shop.users' doesn't exist | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-14 16:01:04] Текст ошибки: Controller app\controllers\admin\OrderController not found | Файл: X:\PROJECTS\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 13:35:27] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 13:41:20] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 13:43:48] Текст ошибки: Controller app\controllers\admin\OrderController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 13:43:49] Текст ошибки: Controller app\controllers\admin\OrderController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 13:50:29] Текст ошибки: Controller app\controllers\admin\ReloadController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 14:53:25] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 14:53:46] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 14:54:54] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 14:55:43] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:02:18] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:06:01] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:08:21] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:10:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:10:04] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:11:18] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:11:19] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:11:54] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:12:41] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:12:42] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:13:41] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:14:05] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:16:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:19:05] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:20:54] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:20:56] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:24:27] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:25:06] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:25:07] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:25:14] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:25:19] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:25:23] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:25:33] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:25:34] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1 | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:30:37] Текст ошибки: syntax error, unexpected ')' | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\views\admin\Order\index.php | Строка: 47
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:35:45] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #8 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'watches_shop.order_product.qty' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-17 15:43:19] Текст ошибки: syntax error, unexpected '$k' (T_VARIABLE), expecting ';' or ',' | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\views\admin\Order\index.php | Строка: 52
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-18 08:13:41] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-18 08:13:53] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-18 11:22:59] Текст ошибки: Method app\controllers\admin\CategoryController::editAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-18 11:27:22] Текст ошибки: Method app\controllers\admin\CategoryController::editAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-18 11:27:27] Текст ошибки: Method app\controllers\admin\CategoryController::editAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-18 11:36:29] Текст ошибки: Method app\controllers\admin\CategoryController::editAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-18 11:43:51] Текст ошибки: На найден вид C:\Program Files\Ampps\www\LuxuryWatchesPHP/app/views/admin\Category/delete.php | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-18 11:51:15] Текст ошибки: syntax error, unexpected ')', expecting '|' or variable (T_VARIABLE) | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\CategoryController.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-19 08:49:58] Текст ошибки: Method app\controllers\admin\CategoryController::addAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-19 08:58:23] Текст ошибки: Method app\controllers\admin\CategoryController::addAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-19 08:58:29] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-19 08:58:37] Текст ошибки: Controller app\controllers\admin\CacheController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-19 08:58:47] Текст ошибки: Method app\controllers\admin\UserController::addAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-19 10:47:27] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-19 10:49:07] Текст ошибки: Page not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-19 17:59:48] Текст ошибки: Controller app\controllers\admin\CacheController not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-19 18:00:13] Текст ошибки: Method app\controllers\admin\UserController::indexAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-19 18:01:10] Текст ошибки: Method app\controllers\admin\UserController::indexAction not found | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 04:38:38] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order ON user.id=order.user_id GROUP BY user.id LIMIT 0, 1' at line 2 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 04:51:55] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 05:46:23] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 05:46:40] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 05:48:12] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 05:57:37] Текст ошибки: Controller app\controllers\admin\ProductController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 07:24:19] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'field list' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 07:24:48] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'field list' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 07:24:53] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'field list' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 07:26:26] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY userCount LIMIT 0, 10' at line 2 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 07:26:40] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY `userCount` LIMIT 0, 10' at line 2 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 07:28:29] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'field list' | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 07:47:38] Текст ошибки: Method app\controllers\admin\OrderController::deleteAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 07:47:42] Текст ошибки: Method app\controllers\admin\OrderController::deleteAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 07:48:28] Текст ошибки: Method app\controllers\admin\OrderController::deleteAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 07:48:58] Текст ошибки: Method app\controllers\admin\OrderController::deleteAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 16:02:46] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 16:03:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 16:49:06] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 16:49:58] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 16:49:58] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 17:12:03] Текст ошибки: Controller app\controllers\LoginController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 17:12:12] Текст ошибки: Controller app\controllers\LoginController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 17:14:36] Текст ошибки: Email "Vadkfg.@ndos.rs" does not comply with addr-spec of RFC 2822. | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mime\Address.php | Строка: 56
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 17:18:30] Текст ошибки: Email "Vadkfg.@ndos.rs" does not comply with addr-spec of RFC 2822. | Файл: C:\Projects\LuxuryWatchesPHP\vendor\symfony\mime\Address.php | Строка: 56
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 18:03:50] Текст ошибки: Unsupported operand types | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\libs\pagination.php | Строка: 64
-~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-20 18:08:53] Текст ошибки: Method app\controllers\admin\ProductController::editAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+[2023-08-25 05:04:35] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
