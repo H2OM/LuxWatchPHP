@@ -1,7 +1,7 @@
 document.querySelectorAll('#single, #multi').forEach(loader=>{
     
     loader.addEventListener('change', ()=>{
-        loader.parentElement.parentElement.querySelector('.fileError')?.remove();
+        loader.parentElement.parentElement.previousElementSibling.querySelector('.fileError')?.remove();
         if(loader.files.length > 0) {
             let data = new FormData();
             for(let file in loader.files) {
@@ -10,20 +10,11 @@ document.querySelectorAll('#single, #multi').forEach(loader=>{
                         case "image/jpeg": 
                         case "image/png":
                         case "image/pjpeg":
-                            data.append("images[]", loader.files[file]);
+                            data.append(loader.dataset.name + "[]", loader.files[file]);
+                            data.append("name", loader.dataset.name);
                             continue;
                         default: {
-                            const errorMeassage = document.createElement("div");
-                            errorMeassage.setAttribute("class", "fileError alert alert-danger alert-dismissible");
-                            errorMeassage.setAttribute("style", "display: block;");
-                            errorMeassage.innerHTML = 
-                                '<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>'
-                                +'<h6 style="display: inline-block;" ><i class="icon fas fa-ban"></i></h6>' 
-                                +  'File type encorect: ' + '"' + loader.files[file].name
-                                    .replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '')
-                                    .replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '') 
-                                + '"';
-                            loader.parentElement.parentElement.prepend(errorMeassage);
+                            loader.parentElement.parentElement.previousElementSibling.append(createError("File type encorect: ", loader.files[file].name));
                             return(2);
                         }   
                     }
@@ -39,33 +30,43 @@ document.querySelectorAll('#single, #multi').forEach(loader=>{
                 }
                 return data.json();
             }).then(data=>{
+                if(data.error) {
+                    throw new Error(data.error);
+                }
                 loader.parentElement.parentElement.querySelectorAll('.' + loader.dataset.name + '> .image-card')?.forEach(card=>card.remove());
                 loader.parentElement.parentElement.querySelector('.' + loader.dataset.name).innerHTML = "";
                 data.forEach(name=>{
                     let imageCard = document.createElement("div");
                     imageCard.classList.add("image-card");
                     let img = new Image();
-                    img.src = '../images/' + name;
+                    img.src = '../images/' + name.servName;
                     img.classList.add('image-card__image');
-                    imageCard.appendChild(img);
-                    imageCard.innerHTML +="<hr class='image-card__hr'><span class='image-card__desc'>" + name + "</span>";
+                    imageCard.innerHTML +="<div class='image-card__image__wrap'></div><hr class='image-card__hr'><span class='image-card__desc'>" + name.uploadName + "</span>";
+                    imageCard.querySelector('.image-card__image__wrap').appendChild(img);
                     img.onload = ()=> {
                         loader.parentElement.parentElement.querySelector('.' + loader.dataset.name).appendChild(imageCard);
                         loader.parentElement.parentElement.querySelector('.' + loader.dataset.name).setAttribute("style", "");
                     }
                 });
-                
-            }).then(()=>{
-                loader.parentElement.parentElement.parentElement.querySelector('.overlay.dark').setAttribute("style", "display:none;");
             }).catch((e)=>{
-                const errorMeassage = document.createElement("div");
-                errorMeassage.setAttribute("class", "fileError alert alert-danger alert-dismissible");
-                errorMeassage.setAttribute("style", "display: block;");
-                errorMeassage.innerHTML = 
-                    '<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>'
-                    + '<h6 style="display: inline-block;" ><i class="icon fas fa-ban"></i></h6>' 
-                    + 'Some error with uploading image(s)' + e.code;
+                loader.parentElement.parentElement.previousElementSibling.append(createError("", e.message));
+            }).finally(()=>{
+                loader.parentElement.parentElement.parentElement.querySelector('.overlay.dark').setAttribute("style", "display:none;");
             });
         } 
     });
 });
+
+function createError (errorName, errorMeassage = "") {
+    const errorBar = document.createElement("div");
+    errorBar.setAttribute("class", "fileError callout callout-danger");
+    if(errorMeassage) {
+        errorMeassage = errorMeassage
+            .replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '')
+            .replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '');
+            if(errorMeassage.length > 43) errorMeassage = errorMeassage.substring(0, 40) + "...";
+    }
+    
+    errorBar.innerHTML = '<h6> ' + errorName  + errorMeassage + '</h6>';
+    return errorBar;
+}

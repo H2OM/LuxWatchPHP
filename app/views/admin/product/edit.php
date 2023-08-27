@@ -2,6 +2,7 @@
   $product = $data['product'];
   $categories = $data['categories'];
   $brands = $data['brands'];
+  $gallery = $data['gallery'];
  ?>
  <!-- Content Header (Page header) -->
  <div class="content-header">
@@ -60,10 +61,6 @@
                             <input type="text" class="form-control" name="description" id="description" value="<?=$product['description'] ?? "";?>">
                         </div>
                         <div class="form-group">
-                            <label for="img">Img</label>
-                            <input type="text" class="form-control" name="img" id="img" value="<?=$product['img'];?>" required>
-                        </div>
-                        <div class="form-group">
                             <label for="hit">
                                 Hit <input type="checkBox" class="form-control" name="hit" id="hit" value="1" style="width: 20px; height:20px;" <?=$product['hit'] ? "checked" : "";?>>
                             </label>
@@ -116,6 +113,86 @@
                         </div>
                         <div class="form-group">
                             <?php new \app\widgets\filter\Filter($product['attrs'], DIR . '/filter/admin_filter_tpl.php');?>
+                        </div>
+                        <div class="form-group">
+                            <label for="img">Image from server</label>
+                            <input type="text" class="form-control" name="img" id="img" placeholder="Img">
+                        </div>
+                        <div class="form-group" style="display: flex;">
+                            <div class="col-md-4">
+                            <div class="card card-danger">
+                                <div class="card-header">
+                                    <h3 class="card-title">Basic image</h3>
+                                </div>
+                                <div class="card-body" style="display:flex;">
+                                    <div  style="align-self: center;">
+                                        <label for="single" class="btn btn-success" style="margin:0px;">
+                                            Select a file
+                                        </label>
+                                        <input style="display: none; " type="file" name="file" id="single" data-url="product/add-image" data-name="single">
+                                        <p style="margin: 0px;"><small>Recomend size: 125x200</small></p>
+                                    </div>
+                                    <div class="selectedImages single">
+                                    <div class="image-card">
+                                        <div class="image-card__image__wrap">
+                                            <img src="<?=PATH . "/public/images/" . $product['img'];?>" alt="<?=$product['title'];?>" class="image-card__image">
+                                        </div>
+                                        <hr class="image-card__hr">
+                                        <span class="image-card__desc">
+                                            <?php
+                                                $_SESSION['single'] = $product['img'];
+                                                $img = htmlentities($product['img']);
+                                                $img =  strlen($img) < 18 ? $img : substr(substr($img, 0, strrpos($img, '.')), 0, 10) . "..." . substr($img, strrpos($img, '.'), strlen($img));
+                                                echo $img;
+                                            ?>
+                                        </span>
+                                    </div>        
+                                    </div>
+                                </div>
+
+                                <div class="overlay dark" style="display: none;">
+                                    <i class="fas fa-2x fa-sync-alt"></i>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card card-primary">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Gallery images</h3>
+                                    </div>
+                                    <div class="card-body" style="display:flex;">
+                                        <div style="align-self: center;">
+                                            <label for="multi" class="btn btn-success" style="margin:0px;">
+                                                Select a file
+                                            </label>
+                                            <input style="display: none;" type="file" name="file" id="multi" data-url="product/add-image" data-name="multi" multiple>
+                                            <p style="margin: 0px;"><small>Recomend size: 700x1000</small></p>
+                                        </div>
+                                        <div class="selectedImages multi">
+                                        <?php foreach($gallery as $k=>$img):?>
+                                            <?php $img = $img['img'];?>
+                                            <div class="image-card">
+                                                <div class="image-card__image__wrap">
+                                                    <img src="<?=PATH . "/public/images/" . $img;?>" alt="<?=$product['title'].$k;?>" class="image-card__image">
+                                                </div>
+                                                <hr class="image-card__hr">
+                                                <span class="image-card__desc">
+                                                    <?php
+                                                        $img = htmlentities($img);
+                                                        $img =  strlen($img) < 18 ? $img : substr(substr($img, 0, strrpos($img, '.')), 0, 10) . "..." . substr($img, strrpos($img, '.'), strlen($img));
+                                                        echo $img;
+                                                    ?>
+                                                </span>
+                                            </div>
+                                        <?php endforeach;?>
+                                        </div>
+                                    </div>
+
+                                    <div class="overlay dark" style="display: none;">
+                                        <i class="fas fa-2x fa-sync-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                    </div>
                    <div class="box-footer">

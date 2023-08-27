@@ -58,10 +58,7 @@ $brands = $data['brands'];
                             <label for="description">Description</label>
                             <input type="text" class="form-control" name="description" id="description" placeholder="Description">
                         </div>
-                        <div class="form-group">
-                            <label for="img">Img</label>
-                            <input type="text" class="form-control" name="img" id="img" placeholder="Img">
-                        </div>
+                        
                         <div class="form-group">
                             <label for="hit">
                                 Hit <input type="checkBox" class="form-control" name="hit" id="hit" value="1" style="width: 20px; height:20px;">
@@ -110,6 +107,10 @@ $brands = $data['brands'];
                         </div>
                         <div class="form-group">
                             <?php new \app\widgets\filter\Filter(null, DIR . '/filter/admin_filter_tpl.php'); ?>
+                        </div>
+                        <div class="form-group">
+                            <label for="img">Image from server</label>
+                            <input type="text" class="form-control" name="img" id="img" placeholder="Img">
                         </div>
                         <div class="form-group" style="display: flex;">
                             <div class="col-md-4">

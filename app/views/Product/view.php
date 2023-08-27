@@ -87,7 +87,7 @@
 							<?php endif;?>
 							<ul class="tag-men">
 								<li><span>Category</span>
-								<span >:<a href="category/<?=$cats[$product['id']]['alias'];?>"><?=$cats[$product['id']]['title'];?></a></span></li>
+								<span >:<a href="category/<?=$cats[$product['category_id']]['alias'];?>"><?=$cats[$product['category_id']]['title'];?></a></span></li>
 							</ul>
 							<div class="quantity">
 								<input type="number" size="4" value="1" name="quantity" min="1" step="1">

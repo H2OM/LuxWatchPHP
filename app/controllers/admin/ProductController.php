@@ -2,12 +2,15 @@
     namespace app\controllers\admin;
 
 use app\models\admin\Product;
+use Error;
 use Exception;
+use shop\App;
 use shop\Db;
 use shop\libs\Pagination;
 
     class ProductController extends AppController {
         public function indexAction() {
+            
             $page = $_GET['page'] ?? 1;
             $perpage = 10;
             $count = Db::getQuery("SELECT COUNT(*) FROM `product`", false , true);
@@ -35,6 +38,7 @@ use shop\libs\Pagination;
                 $product = new Product();
                 $product->load($_POST);
                 $preparedQueryAttr = [];
+                $product->getImg();
                 foreach($product->attributes as $k=>$v) {
                     is_int($v) 
                     ? array_push($preparedQueryAttr, ["VALUE"=>$v, "INT"=>true, "PARAMVALUE"=>100])
@@ -52,6 +56,7 @@ use shop\libs\Pagination;
                     if(isset($_POST['related'])) {
                         $product->editDetails($product_id, $_POST['related'], "`related_product`","related_id");
                     };
+                    $product->saveGallery($product_id);
                     Db::commitTransaction();
                     $_SESSION['success'] = "Product successfully updated";
                 } catch (\Exception $e) {
@@ -61,12 +66,14 @@ use shop\libs\Pagination;
                     redirect();
                 }
             }
+            if(isset($_SESSION['single'])) unset($_SESSION['single']);
+            if(isset($_SESSION['multi'])) unset($_SESSION['multi']);
             try {
                 $product = Db::getPreparedQuery("SELECT product.*, attribute_product.attr_id AS `attr`, attribute_value.attr_group_id AS `group` FROM `product` 
                                                 LEFT JOIN `attribute_product` ON attribute_product.product_id=product.id 
                                                 LEFT JOIN `attribute_value` ON attribute_value.id=attribute_product.attr_id 
                                                 WHERE product.id=?", [["VALUE"=>$product_id, "INT"=>true, "PARAMVALUE"=>128]]);
-                
+                $gallery = Db::getPreparedQuery("SELECT img FROM `gallery` WHERE product_id=?", [["VALUE"=>$product_id, "INT"=>true, "PARAMVALUE"=>128]]);
                 $result = [];
                 if(is_array($product[array_key_first($product)])) {
                     foreach($product as $k=>$v) {
@@ -91,7 +98,7 @@ use shop\libs\Pagination;
                     if($v['catId']) $categories[$v['catId']]=["parent_id"=> $v['CatParent'], "title"=>$v['catTitle']];
                     if($v['brandId']) $brands[$v['brandId']]=["title"=> $v['brandTitle']];
                 }
-                $this->set(compact('product', 'categories', 'brands'));
+                $this->set(compact('product', 'categories', 'brands', 'gallery'));
                 $this->setMeta("Product edit");
             } catch (\Exception $e) {
                 $_SESSION['error'] .= "Database connecting error";
@@ -102,6 +109,7 @@ use shop\libs\Pagination;
             if(!empty($_POST)) {
                 $product = new Product();
                 $product->load($_POST);
+                $product->getImg();
                 $preparedQueryAttr = [];
                 foreach($product->attributes as $k=>$v) {
                     is_int($v) 
@@ -119,6 +127,7 @@ use shop\libs\Pagination;
                     if(isset($_POST['related'])) {
                         $product->editDetails($id, $_POST['related'], "`related_product`","related_id", true);
                     };
+                    $product->saveGallery($id);
                     Db::commitTransaction();
                     $_SESSION['success'] = "Product successfully added";
                 } catch (\Exception $e) {
@@ -128,6 +137,8 @@ use shop\libs\Pagination;
                     redirect();
                 }
             }
+            if(isset($_SESSION['single'])) unset($_SESSION['single']);
+            if(isset($_SESSION['multi'])) unset($_SESSION['multi']);
             try {
                 $temp = Db::getQuery(
                     "SELECT category.parent_id AS `CatParent`, category.id AS `catId`, category.title AS `catTitle`, brand.id AS `brandId`, brand.title AS `brandTitle` 
@@ -165,8 +176,24 @@ use shop\libs\Pagination;
             die;
         }
         public function addImageAction() {
-            sleep(2);
-            echo json_encode(["p-4.png", "p-3.png", "p-2.png", "p-4.png", "p-3.png", "p-2.png", "p-4.png", "p-3.png", "p-2.png"]);
-            die;
+            if(!empty($_POST) && !empty($_FILES)) {
+                if($_POST['name'] == 'multi') {
+                    $wmax = App::$app->getProperty('gallery_width');
+                    $hmax = App::$app->getProperty('gallery_height');
+                } else {
+                    $wmax = App::$app->getProperty('img_width');
+                    $hmax = App::$app->getProperty('img_height');
+                }
+                $name = $_POST['name'];
+                $formatFiles[$name] = [];
+                foreach($_FILES[$name] as $fileKey=>$fileValue) {
+                    foreach($fileValue as $k=>$v) {
+                        $formatFiles[$name][$k][$fileKey] = $v;
+                    }
+                }
+                $_FILES = $formatFiles;
+                $product = new Product();
+                $product->uploadImg($name, $wmax, $hmax);
+            }
         }
     }

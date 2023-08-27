@@ -34,7 +34,7 @@ use shop\libs\Pagination;
             $pagination = new Pagination($page, $perpage, $total);
             $start = $pagination->getStart();
 
-            $products = Db::getQuery("SELECT * FROM product WHERE category_id IN ($ids) $sql_part LIMIT $start, $perpage");
+            $products = Db::getQuery("SELECT * FROM product WHERE category_id IN ($ids) $sql_part AND status='1' LIMIT $start, $perpage");
             
             if($this->isAjax()) {
                 $this->loadView('filter', compact('products', 'total', 'pagination'));

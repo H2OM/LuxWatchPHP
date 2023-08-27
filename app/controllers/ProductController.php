@@ -9,7 +9,6 @@ use shop\Db;
     class ProductController extends AppController {
         public function viewAction() {
             $alias = $this->alias;
-            
             $product = Db::getPreparedQuery("SELECT * FROM product WHERE alias = ? AND status='1' LIMIT 1", [["VALUE"=>$alias, "PARAMVALUE"=>128]]);
             if(!$product) {
                 throw new \Exception('Page not Found', 404);
@@ -33,9 +32,5 @@ use shop\Db;
 
 
             $this->set(compact('product', 'related', 'gallery', 'recentlyViewed', 'breadcrumbs', 'mods'));
-
-            
-            
-        
         }
     }

@@ -15,7 +15,7 @@
         }
         public static function dispatch($url) {
             $url = self::removeQueryString($url);
-            if(self::matchRoute($url) ) {
+            if(self::matchRoute($url)) {
                 $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
                 if(class_exists($controller)) {
                     $controllerObject = new $controller(self::$route);
@@ -36,6 +36,7 @@
         public static function matchRoute($url) {
             foreach(self::$routes as $pattern => $route) {
                 if(preg_match("#{$pattern}#i", $url, $matches)) {
+                    
                     foreach($matches as $k =>$v) {
                         if(is_string($k)) {
                             $route[$k] = $v;
