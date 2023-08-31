@@ -1,0 +1,14 @@
+[2023-08-31 14:22:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-31 14:22:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-31 14:22:53] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'attribute_group' at line 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-31 14:23:12] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/admin\Filter/attribute-group.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-31 14:23:14] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/admin\Filter/attribute-group.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-31 14:23:14] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/admin\Filter/attribute-group.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-08-31 14:23:22] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/admin\Filter/attribute-group.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+~~~~~~~~~~~~~~~~~~~~~~~
