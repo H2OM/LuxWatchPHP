@@ -3,6 +3,7 @@
 
 use app\models\admin\Product;
 use Error;
+use ErrorException;
 use Exception;
 use shop\App;
 use shop\Db;
@@ -31,14 +32,36 @@ use shop\libs\Pagination;
                 redirect();
             }
         }
+        public function modDeleteAction() {
+            $mod_id = $_GET['modId'] ?? die;
+            try {
+                Db::getPreparedQuery("DELETE FROM `modification` WHERE id=?", [["VALUE"=>$mod_id, "INT"=>true]]);
+                exit;
+            } catch(\Exception $e) {
+            }
+        }
+        public function deleteImgsAction() {
+            if(!empty($_GET) && isset($_GET['path']) && isset($_GET['name'])) {
+                if($_GET['path']=="single") {
+                    unset($_SESSION['single']);
+                } else if($_GET['path']=="multi") {
+                    unset($_SESSION['multi'][array_search($_GET['name'], $_SESSION['multi'])]);
+                } else {
+                    throw new ErrorException("Args not supported", 400);
+                }
+            } else {
+                throw new ErrorException("Args not supported", 400);
+            }
+            die;
+        }
         public function editAction() {
             $product_id = $_GET['id'] ?? $_POST['id'] ?? redirect(ADMIN. "/product");
-            
             if(!empty($_POST)) {
                 $product = new Product();
+                if(isset($_POST['imgDelete']['single'])) $product->imgSingleCleaning($_POST['imgDelete']['single']);
+                $product->getImg();
                 $product->load($_POST);
                 $preparedQueryAttr = [];
-                $product->getImg();
                 foreach($product->attributes as $k=>$v) {
                     is_int($v) 
                     ? array_push($preparedQueryAttr, ["VALUE"=>$v, "INT"=>true, "PARAMVALUE"=>100])
@@ -56,7 +79,10 @@ use shop\libs\Pagination;
                     if(isset($_POST['related'])) {
                         $product->editDetails($product_id, $_POST['related'], "`related_product`","related_id");
                     };
+                    if(isset($_POST['imgDelete']['multi'])) $product->imgMultiCleaning($_POST['imgDelete']['multi']);
                     $product->saveGallery($product_id);
+                    if(isset($_POST['mod']) && !empty($_POST['mod']))
+                        $product->setMods($product_id, $_POST['mod']);
                     Db::commitTransaction();
                     $_SESSION['success'] = "Product successfully updated";
                 } catch (\Exception $e) {
@@ -69,11 +95,41 @@ use shop\libs\Pagination;
             if(isset($_SESSION['single'])) unset($_SESSION['single']);
             if(isset($_SESSION['multi'])) unset($_SESSION['multi']);
             try {
-                $product = Db::getPreparedQuery("SELECT product.*, attribute_product.attr_id AS `attr`, attribute_value.attr_group_id AS `group` FROM `product` 
-                                                LEFT JOIN `attribute_product` ON attribute_product.product_id=product.id 
-                                                LEFT JOIN `attribute_value` ON attribute_value.id=attribute_product.attr_id 
-                                                WHERE product.id=?", [["VALUE"=>$product_id, "INT"=>true, "PARAMVALUE"=>128]]);
-                $gallery = Db::getPreparedQuery("SELECT img FROM `gallery` WHERE product_id=?", [["VALUE"=>$product_id, "INT"=>true, "PARAMVALUE"=>128]]);
+                $product = Db::getPreparedQuery(
+                    "SELECT product.*, attribute_product.attr_id AS `attr`, attribute_value.attr_group_id AS `group` FROM `product` 
+                    LEFT JOIN `attribute_product` ON attribute_product.product_id=product.id 
+                    LEFT JOIN `attribute_value` ON attribute_value.id=attribute_product.attr_id 
+                    WHERE product.id=?", 
+                    [["VALUE"=>$product_id, "INT"=>true, "PARAMVALUE"=>128]]
+                );
+                $temp = Db::getPreparedQuery(
+                    "SELECT gallery.id AS `imgId`, gallery.img, modification.id AS `modId`, modification.title, modification.price FROM `gallery` 
+                    RIGHT JOIN `modification` ON gallery.product_id=modification.product_id WHERE gallery.product_id=? OR modification.product_id=?
+                    GROUP BY modId
+                    UNION
+                    SELECT gallery.id AS `imgId`, gallery.img, modification.id AS `modId`, modification.title, modification.price FROM `gallery` 
+                    LEFT JOIN `modification` ON gallery.product_id=modification.product_id WHERE gallery.product_id=? OR modification.product_id=? 
+                    GROUP BY imgId;", 
+                    [
+                        ["VALUE"=>$product_id, "INT"=>true, "PARAMVALUE"=>128],["VALUE"=>$product_id, "INT"=>true, "PARAMVALUE"=>128],
+                        ["VALUE"=>$product_id, "INT"=>true, "PARAMVALUE"=>128],["VALUE"=>$product_id, "INT"=>true, "PARAMVALUE"=>128]
+                    ]
+                );
+                $related = Db::getPreparedQuery(
+                    "SELECT product.id, product.title FROM product 
+                    LEFT JOIN related_product ON related_product.related_id = product.id 
+                    WHERE related_product.product_id=?;",
+                    [["VALUE"=>$product_id, "INT"=>true, "PARAMVALUE"=>128]]
+                );
+                $gallery = [];
+                $mods = [];
+                if(!empty($temp)) {
+                    if(!is_array($temp[array_key_first($temp)])) $temp = [$temp];
+                    foreach($temp as $k=>$v) {
+                        if(!empty($v['img'])) $gallery[$v['imgId']] = $v['img'];
+                        if(!empty($v['title'] && !empty($v['price']))) $mods[$v['modId']] = ["mod"=>$v['title'], "price"=>$v['price']];
+                    }
+                }
                 $result = [];
                 if(is_array($product[array_key_first($product)])) {
                     foreach($product as $k=>$v) {
@@ -98,7 +154,7 @@ use shop\libs\Pagination;
                     if($v['catId']) $categories[$v['catId']]=["parent_id"=> $v['CatParent'], "title"=>$v['catTitle']];
                     if($v['brandId']) $brands[$v['brandId']]=["title"=> $v['brandTitle']];
                 }
-                $this->set(compact('product', 'categories', 'brands', 'gallery'));
+                $this->set(compact('product', 'categories', 'brands', 'gallery', 'mods', 'related'));
                 $this->setMeta("Product edit");
             } catch (\Exception $e) {
                 $_SESSION['error'] .= "Database connecting error";
@@ -108,8 +164,8 @@ use shop\libs\Pagination;
         public function addAction () {
             if(!empty($_POST)) {
                 $product = new Product();
-                $product->load($_POST);
                 $product->getImg();
+                $product->load($_POST);
                 $preparedQueryAttr = [];
                 foreach($product->attributes as $k=>$v) {
                     is_int($v) 
@@ -120,14 +176,21 @@ use shop\libs\Pagination;
                 }
                 try {
                     Db::beginTransaction();
-                    Db::getPreparedQuery("INSERT INTO `product` (title, alias, price, old_price, status, keywords, description, img, hit, category_id, brand_id, content) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", $preparedQueryAttr);
+                    Db::getPreparedQuery(
+                        "INSERT INTO `product` (title, alias, price, old_price, status, keywords, description, img, hit, category_id, brand_id, content) 
+                        VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", 
+                        $preparedQueryAttr
+                    );
                     $id = Db::getQuery("SELECT LAST_INSERT_ID();", false, true);
+                    
                     if(!isset($_POST['attrs'])) throw new Exception('');
                     $product->editDetails($id, $_POST['attrs'], "`attribute_product`","attr_id", true);
                     if(isset($_POST['related'])) {
                         $product->editDetails($id, $_POST['related'], "`related_product`","related_id", true);
                     };
                     $product->saveGallery($id);
+                    if(isset($_POST['mod']) && !empty($_POST['mod']))
+                        $product->setMods($id, $_POST['mod']);
                     Db::commitTransaction();
                     $_SESSION['success'] = "Product successfully added";
                 } catch (\Exception $e) {

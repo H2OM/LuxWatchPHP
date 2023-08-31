@@ -2,7 +2,6 @@
     namespace app\models\admin;
 
 use app\models\AppModel;
-use Exception;
 use shop\Db;
 
     class Product extends AppModel {
@@ -33,14 +32,44 @@ use shop\Db;
             $sqlPart = rtrim($sqlPart, ',');
             Db::getPreparedQuery("INSERT INTO " .$table . " (" . $insertingAttrs . ", product_id) VALUES $sqlPart", $preparedQueryAttr);
         }
-            
+        public function setMods($id, $mods) {
+            $preparedQueryAttr = [];
+            $sql_part = "";
+            foreach($mods as $k=>$v) {
+                $sql_part .= "(?, ?, ?),";
+                array_push($preparedQueryAttr, ["VALUE"=> $id, "INT"=>true]);
+                array_push($preparedQueryAttr, ["VALUE"=> $v['mod'], "PARAMVALUE"=>60]);
+                array_push($preparedQueryAttr, ["VALUE"=> $v['price'], "INT"=>true]);
+            }
+            $sql_part = rtrim($sql_part, ',');
+            Db::getPreparedQuery("INSERT INTO `modification` (product_id, title, price) VALUES $sql_part", $preparedQueryAttr);
+        }
+        public function imgSingleCleaning($data) {
+            if(!empty($data)) {
+                // @unlink(DIR . '/images/' . $data);
+                if($_SESSION['single'] == $data) unset($_SESSION['single']);
+            }
+        }
+        public function imgMultiCleaning($data) {
+            if(!empty($data)) {
+                $sql_part = '';
+                $preparedQueryAttr = [];
+                
+                foreach($data as $k=>$val) {
+                    $sql_part .= " id=? OR";
+                    array_push($preparedQueryAttr, ["VALUE"=> $val['id'], "INT"=>true]);
+                    //@unlink(DIR . '/images/' . $val['name']);
+                }
+                $sql_part = preg_replace('/OR$/','',$sql_part);
+                Db::getPreparedQuery("DELETE FROM gallery WHERE $sql_part", $preparedQueryAttr);
+            }
+        }
         public function getImg(){
-            if(!empty($_SESSION['single'])){
+            if(isset($_SESSION['single']) && !empty($_SESSION['single'])){
                 $this->attributes['img'] = $_SESSION['single'];
                 unset($_SESSION['single']);
             }
         }
-
         public function saveGallery($id){
             if(!empty($_SESSION['multi'])){
                 $sql_part = '';

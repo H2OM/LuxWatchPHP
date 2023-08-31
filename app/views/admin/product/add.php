@@ -109,12 +109,29 @@ $brands = $data['brands'];
                             <?php new \app\widgets\filter\Filter(null, DIR . '/filter/admin_filter_tpl.php'); ?>
                         </div>
                         <div class="form-group">
+                            <label for="mod" style="display: block;">Modifications</label>
+                            <input type="text" id="mod" placeholder="Enter modification">
+                            <input type="number" id="mod__price" placeholder="Enter price">
+                            <button class="btn btn-success btn-sm" style="display:inline;" id="mod__btn">Add</button>
+                            <table id="mod__output">
+                                <thead>
+                                    <tr>
+                                        <th>Mod</th>
+                                        <th>Price</th>
+                                    </tr> 
+                                </thead>
+                                <tbody>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="form-group">
                             <label for="img">Image from server</label>
                             <input type="text" class="form-control" name="img" id="img" placeholder="Img">
                         </div>
                         <div class="form-group" style="display: flex;">
                             <div class="col-md-4">
-                            <div class="card card-danger">
+                            <div class="card card-warning">
                                 <div class="card-header">
                                     <h3 class="card-title">Basic image</h3>
                                 </div>

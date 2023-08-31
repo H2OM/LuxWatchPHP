@@ -9,12 +9,6 @@
   <base href="<?=PATH?>/public/adminLTE/">
   <base href="/LuxuryWatchesPHP/public/adminLTE/">
   <!-- Google Font: Source Sans Pro -->
-
-
-
-
-
-
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
@@ -261,15 +255,41 @@
             <li class="nav-item"><a href="<?= ADMIN ?>/cache" class="nav-link"><i class="fa fa-database"></i> <span>Кэширование</span></a></li>
             <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="fas fa-navicon"></i>
+                    <i class="fas fa-user"></i>
                     <p>
                       Users
                       <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
                 <ul class="nav nav-treeview">
-                    <li class="nav-item"><a href="<?= ADMIN ?>/user" class="nav-link">Список пользователей</a></li>
-                    <li class="nav-item"><a href="<?= ADMIN ?>/user/add" class="nav-link">Добавить пользователя</a></li>
+                    <li class="nav-item"><a href="<?= ADMIN ?>/user" class="nav-link">Users list</a></li>
+                    <li class="nav-item"><a href="<?= ADMIN ?>/user/add" class="nav-link">Add user</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-currencies"></i>
+                    <p>
+                      Currencies
+                      <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item"><a href="<?= ADMIN ?>/currencies" class="nav-link">Currencies list</a></li>
+                    <li class="nav-item"><a href="<?= ADMIN ?>/currencies/add" class="nav-link">Add currency</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-filter"></i>
+                    <p>
+                      Filters
+                      <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item"><a href="<?= ADMIN ?>/filter/attribute-group" class="nav-link">Filters groups</a></li>
+                    <li class="nav-item"><a href="<?= ADMIN ?>/filter/atribute" class="nav-link">Filters</a></li>
                 </ul>
             </li>
           <li class="nav-header">Lightning &#9889;</li>
@@ -400,6 +420,7 @@
 
 <script src="plugins/summernote/summernote.min.js"></script>
 <script src="imageToServ.js"></script>
+<script src="ModEvents.js"></script>
 <script>
   $(document).ready(function() {
     if($('#summernote')) {

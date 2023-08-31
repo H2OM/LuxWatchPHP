@@ -41,7 +41,7 @@ use PDO;
                 if($count) $result = $result[array_key_first($result)];
                 return $result;
             } catch (\PDOException $e) {
-                $_SESSION['error'] = ("Не удалось связать параметры PDO   " . $e->getMessage());
+                $_SESSION['error'] = ("Не удалось связать параметры PDO   " . $parrametrs[array_key_first($parrametrs)]["VALUE"] . $e->getMessage());
                 throw new \PDOException();
             }
         }

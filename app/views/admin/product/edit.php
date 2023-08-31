@@ -3,6 +3,8 @@
   $categories = $data['categories'];
   $brands = $data['brands'];
   $gallery = $data['gallery'];
+  $mods = $data['mods'];
+  $related = $data['related'];
  ?>
  <!-- Content Header (Page header) -->
  <div class="content-header">
@@ -109,18 +111,48 @@
                         <div class="form-group">
                             <label for="related">Related products</label>
                             <select name="related[]" class="select2 select2-hidden-accessible" multiple="multiple" style="width: 100%;">
+                                <?php if(!empty($related)):?>
+                                    <?php foreach($related as $k=>$v):?>
+                                        <option value="<?=$v['id'];?>" selected><?=$v['title'];?></option>    
+                                    <?php endforeach;?>
+                                <?php endif;?>
                             </select>
                         </div>
                         <div class="form-group">
                             <?php new \app\widgets\filter\Filter($product['attrs'], DIR . '/filter/admin_filter_tpl.php');?>
                         </div>
                         <div class="form-group">
+                            <label for="mod" style="display: block;">Modifications</label>
+                            <input type="text" id="mod" placeholder="Enter modification">
+                            <input type="number" id="mod__price" placeholder="Enter price">
+                            <button class="btn btn-success btn-sm" style="display:inline;" id="mod__btn">Add</button>
+                            <table id="mod__output">
+                                <thead>
+                                    <tr>
+                                        <th>Mod</th>
+                                        <th>Price</th>
+                                        <th>Delete</th>
+                                    </tr> 
+                                </thead>
+                                <tbody>
+                                    <?php foreach($mods as $k=>$mod):?>
+                                        <tr style="margin-top:10px; background-color:#d2d6de;" data-modid="<?=$k;?>">
+                                            <td style="min-width: 184px;"><?=$mod['mod'];?></td>
+                                            <td style="min-width: 184px;"><?=$mod['price'];?></td>
+                                            <td style="text-align: center; cursor:pointer;" class="mod__delete">&#x26CC;</td>
+                                        </tr>
+                                    <?php endforeach;?>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="form-group">
+
                             <label for="img">Image from server</label>
                             <input type="text" class="form-control" name="img" id="img" placeholder="Img">
                         </div>
                         <div class="form-group" style="display: flex;">
                             <div class="col-md-4">
-                            <div class="card card-danger">
+                            <div class="card card-warning">
                                 <div class="card-header">
                                     <h3 class="card-title">Basic image</h3>
                                 </div>
@@ -133,20 +165,23 @@
                                         <p style="margin: 0px;"><small>Recomend size: 125x200</small></p>
                                     </div>
                                     <div class="selectedImages single">
-                                    <div class="image-card">
-                                        <div class="image-card__image__wrap">
-                                            <img src="<?=PATH . "/public/images/" . $product['img'];?>" alt="<?=$product['title'];?>" class="image-card__image">
-                                        </div>
-                                        <hr class="image-card__hr">
-                                        <span class="image-card__desc">
-                                            <?php
-                                                $_SESSION['single'] = $product['img'];
-                                                $img = htmlentities($product['img']);
-                                                $img =  strlen($img) < 18 ? $img : substr(substr($img, 0, strrpos($img, '.')), 0, 10) . "..." . substr($img, strrpos($img, '.'), strlen($img));
-                                                echo $img;
-                                            ?>
-                                        </span>
-                                    </div>        
+                                        <div class="image-card" style="box-shadow:0px 0px 5px #6c757d">
+                                            <?php if($product['img'] != "no_image.jpg"):?>
+                                                <button class="image-card__delete" data-type="single" data-name="<?=$product['img'];?>">&#x26CC;</button>
+                                            <?php endif;?>   
+                                            <div class="image-card__image__wrap">
+                                                <img src="<?=PATH . "/public/images/" . $product['img'];?>" alt="<?=$product['title'];?>" class="image-card__image">
+                                            </div>
+                                            <hr class="image-card__hr">
+                                            <span class="image-card__desc"></span>
+                                                <?php
+                                                    if($product['img'] != "no_image.jpg") $_SESSION['single'] = $product['img'];
+                                                    $img = htmlentities($product['img']);
+                                                    $img =  strlen($img) < 18 ? $img : substr(substr($img, 0, strrpos($img, '.')), 0, 10) . "..." . substr($img, strrpos($img, '.'), strlen($img));
+                                                    echo $img;
+                                                ?>
+                                            </span>
+                                        </div>        
                                     </div>
                                 </div>
 
@@ -170,8 +205,8 @@
                                         </div>
                                         <div class="selectedImages multi">
                                         <?php foreach($gallery as $k=>$img):?>
-                                            <?php $img = $img['img'];?>
-                                            <div class="image-card">
+                                            <div class="image-card" style="box-shadow:0px 0px 5px #6c757d">
+                                                <button class="image-card__delete" data-delete="<?=$k;?>" data-name="<?=$img;?>" data-type="multi">&#x26CC;</button>
                                                 <div class="image-card__image__wrap">
                                                     <img src="<?=PATH . "/public/images/" . $img;?>" alt="<?=$product['title'].$k;?>" class="image-card__image">
                                                 </div>

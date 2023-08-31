@@ -81,4 +81,5 @@ use shop\libs\Pagination;
             $this->set(compact('user'));
             $this->setMeta("Editing a user");
         }
+        
     }

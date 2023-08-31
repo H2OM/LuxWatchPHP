@@ -2,6 +2,7 @@
     namespace app\controllers;
 
 use app\models\User;
+use Exception;
 use shop\Db;
 
     class UserController extends AppController {
@@ -62,5 +63,7 @@ use shop\Db;
                 redirect();
             }
         }
+        
+
         
     }
