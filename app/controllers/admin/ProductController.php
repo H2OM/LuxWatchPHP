@@ -121,6 +121,8 @@ use shop\libs\Pagination;
                     WHERE related_product.product_id=?;",
                     [["VALUE"=>$product_id, "INT"=>true, "PARAMVALUE"=>128]]
                 );
+                if(!is_array($related[array_key_first($related)]))
+                    $related = [$related];
                 $gallery = [];
                 $mods = [];
                 if(!empty($temp)) {

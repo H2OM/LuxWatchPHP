@@ -26,7 +26,7 @@
     <!-- /.content-header -->
 
     <!-- Main content -->
-    <section class="content">
+    <section class="content" style="padding-bottom: 10px;">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <div class="row">
@@ -230,9 +230,9 @@
                             </div>
                         </div>
                    </div>
-                   <div class="box-footer">
+                   <div class="box-footer" style="width:100%">
                         <input type="hidden" name="id" value="<?=$product['id'];?>">
-                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="submit" class="btn btn-primary" style="width:100%">Save</button>
                    </div>
                 </form>    
             </div>

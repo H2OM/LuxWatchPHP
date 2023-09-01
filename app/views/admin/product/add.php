@@ -22,7 +22,7 @@ $brands = $data['brands'];
 <!-- /.content-header -->
 
 <!-- Main content -->
-<section class="content">
+<section class="content" style="padding-bottom: 10px;">
     <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <div class="row">
@@ -175,8 +175,8 @@ $brands = $data['brands'];
                             </div>
                         </div>
                     </div>
-                    <div class="box-footer">
-                        <button type="submit" class="btn btn-primary">Save</button>
+                    <div class="box-footer" style="width:100%">
+                        <button type="submit" class="btn btn-primary" style="width:100%">Save</button>
                     </div>
                 </form>
             </div>

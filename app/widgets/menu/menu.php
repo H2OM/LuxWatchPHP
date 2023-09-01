@@ -76,6 +76,7 @@
             $str = '';
             $cond = $this->elementCond;
             foreach($tree as $id=>$category) {
+                if(!is_array($category)) $category = ["title"=>$category];
                 $str .= $this->catToTemplate($category, $tab, $id);
             }
             return $str;

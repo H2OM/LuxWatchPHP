@@ -24,6 +24,24 @@
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <div class="row">
+            <div class="card card-primary" style="margin-bottom: 20px; width:100%;">
+              <div class="card-header">
+                  <h3 class="card-title">Add new group</h3>
+              </div>
+              <form action="<?=ADMIN;?>/filter/group-add" method="post">
+                  <div class="card-body">
+                      <div class="form-group has-feedback">
+                          <label for="title">Title</label>
+                          <input type="text" name="title" class="form-control" id="title" placeholder="Group title" required>
+                      </div>
+                  </div>
+                  <div class="card-footer">
+                      <button type="submit" class="btn btn-success" style="width:100%;"><i class="fa fa-fw fa-plus"></i>Add new group</button>
+                  </div>
+              </form>
+            </div>
+        </div>
+        <div class="row">
             <div class="box" style="width: 100%;">
                 <div class="box-body">
                     <div class="table-responsive">
@@ -31,14 +49,18 @@
                             <thead>
                                 <tr>
                                     <th>Title</th>
-                                    <th>Action</th>
+                                    <th>Filters count</th>
+                                    <th>Edit</th>
+                                    <th>Delete <small class="text-danger">(If there are filters in the group, they will also be deleted)</small></th>
                                 </tr>   
                             </thead>
-                            <tbody>
+                            <tbody class="filter-group">
                                 <?php foreach($attrs_group as $item):?>
-                                    <tr>
-                                        <td><?=$item['title'];?></td>
-                                        <td><a href="<?=ADMIN;?>/filter/group-delete?id=<?=$item['d'];?>" style="color: red; text-decoration:underline;">Delete</a></td>
+                                    <tr data-type="group">
+                                        <td data-editer data-filter="<?=$item['title'];?>"><?=$item['title'];?></td>
+                                        <td data-editer><?=$item['filters'];?></td>
+                                        <td><button class="groupEditer" style="background-color: unset; border:none;"><i class="fa fa-fw fa-pen"></i></button></td>
+                                        <td><a href="<?=ADMIN;?>/filter/filters-cleaning?path=group&id=<?=$item['id'];?>" style="color: red; text-decoration:underline;">Delete</a></td>
                                     </tr> 
                                 <?php endforeach;?>
                                

@@ -289,7 +289,7 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item"><a href="<?= ADMIN ?>/filter/attribute-group" class="nav-link">Filters groups</a></li>
-                    <li class="nav-item"><a href="<?= ADMIN ?>/filter/atribute" class="nav-link">Filters</a></li>
+                    <li class="nav-item"><a href="<?= ADMIN ?>/filter/attribute" class="nav-link">Filters</a></li>
                 </ul>
             </li>
           <li class="nav-header">Lightning &#9889;</li>
@@ -421,6 +421,7 @@
 <script src="plugins/summernote/summernote.min.js"></script>
 <script src="imageToServ.js"></script>
 <script src="ModEvents.js"></script>
+<script src="FilterEditer.js"></script>
 <script>
   $(document).ready(function() {
     if($('#summernote')) {

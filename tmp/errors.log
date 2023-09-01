@@ -1,14 +1,14 @@
-[2023-08-31 14:22:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-09-01 20:58:55] Текст ошибки:  | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-31 14:22:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+[2023-09-01 21:00:07] Текст ошибки:  | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-31 14:22:53] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'attribute_group' at line 1 | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 19
+[2023-09-01 21:02:06] Текст ошибки:  | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-31 14:23:12] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/admin\Filter/attribute-group.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+[2023-09-01 21:02:51] Текст ошибки:  | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-31 14:23:14] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/admin\Filter/attribute-group.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+[2023-09-01 21:03:40] Текст ошибки: Args not supported | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\FilterController.php | Строка: 70
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-31 14:23:14] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/admin\Filter/attribute-group.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+[2023-09-01 21:04:07] Текст ошибки:  | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-08-31 14:23:22] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/admin\Filter/attribute-group.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+[2023-09-01 21:06:19] Текст ошибки: Args not supported | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\FilterController.php | Строка: 76
 ~~~~~~~~~~~~~~~~~~~~~~~

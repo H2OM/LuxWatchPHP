@@ -129,3 +129,6 @@
         transform: rotate(360deg);
     }
 }
+[data-input]:focus {
+    border: none;
+}

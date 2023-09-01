@@ -9,8 +9,10 @@
                 <ul class="nav nav-pills ml-auto p-2">
                     <?php $i = 0;?>
                     <?php foreach($this->groups as $key=>$group):?>
-                        <?php $i++;?>
-                        <li class="nav-item"><a class="nav-link <?=$i == 1 ? "active" : "";?>" href="#group_<?=$i;?>" data-toggle="tab"><?=$group;?></a></li>
+                        <?php if(array_search($key, array_keys($this->attrs), true)):?>
+                            <?php $i++;?>
+                            <li class="nav-item"><a class="nav-link <?=$i == 1 ? "active" : "";?>" href="#group_<?=$key;?>" data-toggle="tab"><?=$group;?></a></li>
+                        <?php endif;?>
                     <?php endforeach;?>
                 </ul>
             </div>
@@ -19,7 +21,7 @@
                     <?php $i = 0;?>
                     <?php foreach($this->attrs as $group=>$attrs):?>
                         <?php $i++;?>
-                        <div class="tab-pane <?=$i == 1 ? "active" : "";?>" id="group_<?=$i;?>">
+                        <div class="tab-pane <?=$i == 1 ? "active" : "";?>" id="group_<?=$group;?>">
                             <?php foreach($attrs as $key=>$attr):?>
                                 <?php 
                                     if(!empty($this->filter && in_array($key, $this->filter))) {

@@ -18,7 +18,7 @@
     <!-- /.content-header -->
 
     <!-- Main content -->
-    <section class="content">
+    <section class="content" style="padding-bottom: 20px;">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <div class="row">
@@ -45,17 +45,9 @@
                                     'prepend'=>'<option value="0">Single category</option>'
                                 ])?>
                             </div>
-                            <div class="form-group">
-                                <label for="keywords">Category keywords</label>
-                                <input type="text" name="keywords" class="form-control" id="title" placeholder="Category keywords">
-                            </div>
-                            <div class="form-group">
-                                <label for="description">Description</label>
-                                <input type="text" name="description" class="form-control" id="description" placeholder="Description">
-                            </div>
                         </div>
-                        <div class="box-footer">
-                            <button type="submit" class="btn btn-success">Add</button>
+                        <div class="box-footer" style="width:100%">
+                            <button type="submit" class="btn btn-success" style="width: 100%;">Add</button>
                         </div>
                     </form>
             </div>

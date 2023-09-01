@@ -22,6 +22,8 @@ use PDO;
             while($row = $result->fetch()) {
                 $FKAAN ? $out[array_shift($row)] = $row : array_push($out, $row);
             }
+            if(!is_array($out[array_key_first($out)]))
+                $out = [$out];
             return $out;
         }
         public static function getPreparedQuery($request, $parrametrs = [], $count = false, $FKAAN = false) {
