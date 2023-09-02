@@ -39,7 +39,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<ul class="dropdown-menu">
 								<?php if(!empty($_SESSION['user'])) :?>
 									<li><a href="#">Hello, <?=h($_SESSION['user']['name']);?></a></li>
-									<li><a href="user/changeEmail">Change email</a></li>
+									<li><a href="user/office">Personal office</a></li>
 									<li><a href="user/logout">Logout</a></li>
 									<?php else:?>
 										<li><a href="user/signup">Sign up</a></li>

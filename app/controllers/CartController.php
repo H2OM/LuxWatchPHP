@@ -5,6 +5,7 @@ use app\models\Cart;
 use app\models\Order;
 use app\models\User;
 use Error;
+use ErrorException;
 use shop\Db;
 
     class CartController extends AppController {
@@ -86,14 +87,46 @@ use shop\Db;
                 $data['note'] = getSafeString($_POST['note']) ?? '';
                 $user_email = $_SESSION['user']['email'] ?? $_POST['email'];
                 $order_id = Order::saveOrder($data);
+
+                if(!empty($_POST['pay'])) {
+                    self::setPaymentData($order_id);
+                }
                 try {
                     Order::mailOrder($order_id, $user_email);
-                } catch(\Exception $e) {
-
+                } catch(\Exception $e) { }
+                if(!empty($_POST['pay'])) {
+                    redirect(PATH . "/payment/form.php");   
                 }
                 unset($_SESSION['cart'], $_SESSION['cart.qty'], $_SESSION['cart.sum'], $_SESSION['cart.currency']);  
                 $_SESSION['success'] = "Thank you for your order! The manager will contact you soon";
             }
             redirect();
+        }
+        protected static function setPaymentData($order_id){
+            if(isset($_SESSION['payment'])) unset($_SESSION['payment']);
+            $_SESSION['payment']['id'] = $order_id;
+            $_SESSION['payment']['curr'] = $_SESSION['cart.currency']['code'];
+            $_SESSION['payment']['sum'] = $_SESSION['cart.sum'];
+        }
+        public function paymentACtion() {
+            if(empty($_POST)) {
+                throw new ErrorException("", 404);
+            }
+            $dataSet = $_POST;
+            $key = "КЛЮЧ КОТОРЫЙ ПРЕДЛОГАЕТ ПЛАТЕЖНАЯ СИСТЕМА";
+            unset($dataSet['ik_sign']);
+            ksort($dataSet, SORT_STRING);
+            array_push($dataSet, $key);
+            $signString =implode(':', $dataSet);
+            $sign = base64_encode(md5($signString, true));
+            $order = Db::getQuery("SELECT * FROM `order` WHERE id=" . (int)$dataSet['ik_pm_no']);
+            if(!$order) die;
+            if($dataSet['ik_co_id'] != "...Какой то индификатор кассы" ||
+                $dataSet['ik_inv_st'] != "success" || $dataSet['ik_am'] != $order['sum'] 
+                || $sign != $_POST['ik_sign'] ) {
+                    die;
+            }
+            Db::getQuery("UPDATE order SET status='2' WHERE id=" . (int)$dataSet['ik_pm_no']);
+            die;
         }
     }

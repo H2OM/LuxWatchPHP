@@ -90,6 +90,10 @@
                                     <label for="address">Note</label>
                                     <textarea name="note" class="form-control"></textarea>
                                 </div>
+                                <div class="form-group">
+                                    <label for="address">Online pay</label>
+                                    <input type="checkbox" name="pay">
+                                </div>
                                 <button type="submit" class="btn btn-default">Place an order</button>
                             </form>
                             <?php if(isset($_SESSION['form_data'])) unset($_SESSION['form_data']); ?>

@@ -50,20 +50,75 @@ use shop\Db;
             if(isset($_SESSION['user'])) unset($_SESSION['user']);
             redirect();
         }
-        public function changeEmailAction() {
-            if(!empty($_POST)) {
-                try {
-                    $newEmail = getSafeString($_POST['email']);
-                    Db::getPreparedQuery("UPDATE user SET email=? WHERE email='{$_SESSION['user']['email']}'",[["VALUE"=>$newEmail, "PARAMVALUE"=>22]]);
-                    $_SESSION['user']['email'] = $newEmail;
-                    $_SESSION['success'] = "Your email successfully update";
-                } catch (\PDOException $e) {
-                    $_SESSION['error'] .= "Some error with change email";
+        public function officeAction() {
+            if(!User::checAuth()) redirect();
+            $this->setMeta("Personal account");
+        } 
+        public function editAction() {
+            if(!User::checAuth()) redirect('user/login');
+            if(isset($_POST['login'], $_POST['password'], $_POST['name'], $_POST['email'], $_POST['address'])) {
+                $user = new User();
+                $data = $_POST;
+                $data['id'] = $_SESSION['user']['id'];
+                $data['role'] = $_SESSION['user']['role'];
+                $user->load($data);
+                if(!$user->attributes['password']) {
+                    unset($user->attributes['password']);
+                } else {
+                    $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
                 }
+                if(!$user->validate(true)) {
+                    $_SESSION['error'] = "Something going wrong";
+                    redirect();
+                }
+                $preparedQueryAttr = [];
+                $sql_part ='';
+                foreach($user->attributes as $k=>$v) {
+                    if($k == "role") continue;
+                    $sql_part .= $k . "=?,";
+                    switch($k) {
+                        case "address":
+                            array_push($preparedQueryAttr, ["VALUE"=>$v,"INT"=>true]);
+                            break;
+                        case "password":
+                            array_push($preparedQueryAttr, ["VALUE"=>$v,"PARAMVALUE"=>256]);
+                            break;
+                        default:
+                            array_push($preparedQueryAttr, ["VALUE"=>$v,"PARAMVALUE"=>64]);
+                            break;
+                    }
+                }
+                $sql_part = rtrim($sql_part, ',');
+                try {
+                    Db::getPreparedQuery("UPDATE user SET $sql_part WHERE id=" . $data['id'], $preparedQueryAttr);
+                    foreach($user->attributes as $k=>$v) {
+                        if($k == "password") continue;
+                        $_SESSION['user'][$k] = $v;
+                    }
+                    $_SESSION['success'] = "Changes saved";
+                } catch(Exception $e) {
+                    $_SESSION['error'] .= "Cant save data";
+                } finally {
+                    redirect();
+                }
+            } 
+            $this->setMeta('Change personal data');
+        }
+        public function ordersAction() {
+            if(!User::checAuth()) redirect("user/login");
+            try {
+                $orders = Db::getPreparedQuery("SELECT `order`.*, order_product.price AS `sum` FROM `order` 
+                    JOIN `order_product` ON order.id = order_product.order_id 
+                    WHERE user_id=?",[
+                        ["VALUE"=>$_SESSION['user']['id'], "INT"=>true]
+                    ]);
+                if(!is_array($orders[array_key_first($orders)]))
+                    $orders = [$orders];
+            } catch (Exception $e) {
+                $_SESSION['error'] .= "Error getting orders";
                 redirect();
             }
+            $this->setMeta("Orders history");
+            $this->set(compact("orders"));
         }
-        
-
-        
     }

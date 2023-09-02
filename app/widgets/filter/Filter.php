@@ -39,14 +39,14 @@ use shop\Db;
             return ob_get_clean();
         }
         protected function getGroups() {
-            $result = Db::getQuery("SELECT id, title FROM attribute_group", true);
+            $result = Db::getQuery("SELECT id, title FROM attribute_group ORDER BY id", true);
             foreach($result as $k=>$v) {
                 $result[$k] = $v['title'];
             }
             return $result;
         }
         protected static function getAttrs() {
-            $data = Db::getQuery("SELECT * FROM attribute_value", true);
+            $data = Db::getQuery("SELECT * FROM attribute_value ORDER BY attr_group_id", true);
             $attrs = [];
             foreach($data as $k=>$v) {
                 $attrs[$v['attr_group_id']][$k] = $v['value'];

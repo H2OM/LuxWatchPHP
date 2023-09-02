@@ -1,14 +1,66 @@
-[2023-09-01 20:58:55] Текст ошибки:  | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
+[2023-09-02 05:17:36] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-09-01 21:00:07] Текст ошибки:  | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
+[2023-09-02 05:17:42] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-09-01 21:02:06] Текст ошибки:  | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
+[2023-09-02 05:18:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-09-01 21:02:51] Текст ошибки:  | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
+[2023-09-02 11:28:30] Текст ошибки: Controller app\controllers\admin\CurrenciesController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-09-01 21:03:40] Текст ошибки: Args not supported | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\FilterController.php | Строка: 70
+[2023-09-02 11:29:01] Текст ошибки: Controller app\controllers\admin\CurrenciesController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-09-01 21:04:07] Текст ошибки:  | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
+[2023-09-02 11:29:02] Текст ошибки: Controller app\controllers\admin\CurrenciesController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
 ~~~~~~~~~~~~~~~~~~~~~~~
-[2023-09-01 21:06:19] Текст ошибки: Args not supported | Файл: C:\Program Files\Ampps\www\LuxuryWatchesPHP\app\controllers\admin\FilterController.php | Строка: 76
+[2023-09-02 11:29:13] Текст ошибки: Controller app\controllers\admin\CurrensiesController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 11:30:22] Текст ошибки: Controller app\controllers\admin\CurrensiesController not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 30
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 11:35:46] Текст ошибки: На найден вид C:\Projects\LuxuryWatchesPHP/app/views/admin\Currencies/index.php | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\base\View.php | Строка: 32
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 11:37:01] Текст ошибки: Method app\controllers\admin\CurrenciesController::currenciesEditAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 13:43:18] Текст ошибки: Method app\controllers\admin\CurrenciesController::addAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:00:15] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:00:18] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:00:24] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:00:29] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:00:33] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:00:38] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:00:45] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:00:52] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:00:57] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:01:01] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:01:04] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 14:01:07] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 15:34:11] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 17:35:47] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 17:35:51] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 17:45:22] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 18:18:22] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 18:35:26] Текст ошибки: Method app\controllers\UserController::ordersAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 18:49:57] Текст ошибки: Method app\controllers\UserController::ordersAction not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 27
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 18:50:17] Текст ошибки:  | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 18:50:46] Текст ошибки:  | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\Db.php | Строка: 47
+~~~~~~~~~~~~~~~~~~~~~~~
+[2023-09-02 18:58:39] Текст ошибки: Page not found | Файл: C:\Projects\LuxuryWatchesPHP\vendor\shop\core\router.php | Строка: 33
 ~~~~~~~~~~~~~~~~~~~~~~~

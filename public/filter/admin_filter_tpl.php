@@ -8,8 +8,9 @@
                 <button type="button" class="btn__reset btn__reset_Current">Reset current filter</button>
                 <ul class="nav nav-pills ml-auto p-2">
                     <?php $i = 0;?>
+                    
                     <?php foreach($this->groups as $key=>$group):?>
-                        <?php if(array_search($key, array_keys($this->attrs), true)):?>
+                        <?php if(array_search($key, array_keys($this->attrs)) !== false):?>
                             <?php $i++;?>
                             <li class="nav-item"><a class="nav-link <?=$i == 1 ? "active" : "";?>" href="#group_<?=$key;?>" data-toggle="tab"><?=$group;?></a></li>
                         <?php endif;?>
